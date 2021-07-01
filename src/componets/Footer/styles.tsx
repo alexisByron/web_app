@@ -4,12 +4,13 @@ const footer: CSS.Properties = {
         backgroundColor: '#FFAACC',
         fontFamily: 'Comic Sans MS',
         color: '#76106A',
-        left: 0,
-        bottom: 0,
-        right: 0,
         textAlign: "center",
         position: 'fixed',
-        minHeight: '250px'
+        //position: 'absolute',
+        width: '100%',
+        right: '0',
+        bottom: '0',
+        left: '0',
 };
 
 const footerContainer :CSS.Properties={
