@@ -1,12 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {styles} from './styles';
+import {productProps} from './interface/IProduct';
 
-interface productProps {
-    imagen: string;
-    nombreProducto: string;
-    id: number;
-}
 
 class Product extends React.Component<productProps>{
     render(){
