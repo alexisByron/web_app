@@ -1,9 +1,9 @@
 import CSS from "csstype";
+import {Colors} from "../../Theme";
 
 const footer: CSS.Properties = {
-  backgroundColor: "#FFAACC",
-  fontFamily: "Comic Sans MS",
-  color: "#76106A",
+  backgroundColor: Colors.background,
+  color: Colors.text,
   textAlign: "center",
   padding: "30px 30px",
   position: "relative",

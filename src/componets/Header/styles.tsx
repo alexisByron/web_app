@@ -1,4 +1,5 @@
 import CSS from "csstype";
+import fondoHeader from '../../assests/img/fondoHeader.jpg';
 
 const header: CSS.Properties = {
   height: "250px",
@@ -6,7 +7,7 @@ const header: CSS.Properties = {
   top: 0,
   right: 0,
   textAlign: "center",
-  backgroundImage:`url('https://i.pinimg.com/236x/c3/57/82/c357826c8510cdfb78439343fefcac5d--seamless-background-vector-background.jpg')`,
+  backgroundImage:`url(${fondoHeader})`,
   borderBottomLeftRadius:'40%',
   borderBottomRightRadius:'40%'
 };
