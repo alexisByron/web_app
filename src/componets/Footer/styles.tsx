@@ -4,13 +4,22 @@ const footer: CSS.Properties = {
         backgroundColor: '#FFAACC',
         fontFamily: 'Comic Sans MS',
         color: '#76106A',
-        left: 0,
-        bottom: 0,
-        right:0,
         textAlign: "center",
-        position: 'fixed',
+        padding: "30px 30px",
+        position: 'relative',
+        height: '250px',
+};
+
+const footerContainer :CSS.Properties={
+
+};
+
+const ul: CSS.Properties={
+    listStyleType: 'none'
 };
 
 export const styles = {
-    footer
-}
+    footer,
+    ul,
+    footerContainer
+};

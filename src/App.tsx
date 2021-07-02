@@ -5,9 +5,7 @@ import Layout from './componets/Layout/Layout';
 import Products from './screens/Products/Products'; 
 import ToShop from './screens/ToShop/ToShop';
 
-
 function App(){
-  
   return (
     <BrowserRouter >
         <Layout>
