@@ -25,7 +25,9 @@ export default function Product(props: productProps) {
       <div className="card-body text-center">
         <h5 className="card-title text-center">{props.nombreProducto}</h5>
         <Link to="/ToShop" className="btn" style={styles.CustomBtn}>
-          Agregar a carro
+          <h6>
+            Agregar a carro
+          </h6>
         </Link>
       </div>
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>

@@ -3,13 +3,14 @@ import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import { modalProps } from "./interface/ICustomModal";
 import { styles } from "./styles";
+import {Colors} from "../../Theme";
 
 const customStyles = {
   content: {
     height: "430px",
-    width: "70%",
+    width: "60%",
     margin: "auto",
-    boxShadow: "-17px 17px 21px -5px rgba(255,170,204,0.83)",
+    boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
   },
 };
 

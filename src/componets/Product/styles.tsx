@@ -1,9 +1,10 @@
 import CSS from "csstype";
+import { Colors } from "../../Theme";
 
 const Product: CSS.Properties = {
-  border: "1px solid rgba(255,170,204,0.83)",
+  border: `1px solid ${Colors.background}`,
   height: "300px",
-  boxShadow: "-17px 17px 21px -5px rgba(255,170,204,0.83)",
+  boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
 };
 
 const ProductImg: CSS.Properties = {
@@ -11,8 +12,8 @@ const ProductImg: CSS.Properties = {
 };
 
 const CustomBtn: CSS.Properties = {
-  backgroundColor: "#FFAACC",
-  color: "#76106A",
+  backgroundColor: Colors.background,
+  color: Colors.text,
 };
 
 const ModalContent: CSS.Properties = {
@@ -30,8 +31,7 @@ const containerImgModal: CSS.Properties = {
 };
 
 const ModalDescription: CSS.Properties = {
-  fontFamily: "Comic Sans MS",
-  color: "#76106A",
+  color: Colors.strongText,
   fontSize: "20px",
   textAlign: "left",
 };

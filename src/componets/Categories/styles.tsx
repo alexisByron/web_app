@@ -1,8 +1,8 @@
 import CSS from "csstype";
+import { Colors } from "../../Theme";
 
 const CustomFont: CSS.Properties = {
-  fontFamily: "Comic Sans MS",
-  color: "rgb(167, 26, 150)",
+  color: Colors.strongText,
 };
 
 export const styles = {
