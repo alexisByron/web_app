@@ -26,7 +26,7 @@ export default function Product(props:productProps) {
                     <div className="col-12 col-md-4" style={{margin:'auto'}}>
                         <p style={styles.ModalDescription}>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.</p>
                     </div>
-                </div><br />
+                </div>
                 <div className="row">
                     <div className="card-body text-center">
                         <Link to="/ToShop" className="btn" style={styles.CustomBtn}>Comentarios </Link>

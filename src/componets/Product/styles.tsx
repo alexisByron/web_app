@@ -1,6 +1,7 @@
 import CSS from 'csstype';
 
 const Product:CSS.Properties={
+    border: '1px solid rgba(255,170,204,0.83)',
     height:'300px',
     boxShadow: "-17px 17px 21px -5px rgba(255,170,204,0.83)",
 };
@@ -15,7 +16,6 @@ const CustomBtn:CSS.Properties={
 };
 
 const ModalContent: CSS.Properties={
-    height:'300px',
     marginLeft:'10px',
     marginRight:'10px',
 };

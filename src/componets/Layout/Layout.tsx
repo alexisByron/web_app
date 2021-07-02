@@ -6,7 +6,9 @@ function Layout(props:any){
         return (
             <React.Fragment>
                 <Header />
-                {props.children}
+                <div style={{marginBottom:'auto'}}>
+                    {props.children}
+                </div>
                 <Footer />
             </React.Fragment>
     );

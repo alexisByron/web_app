@@ -5,16 +5,13 @@ const footer: CSS.Properties = {
         fontFamily: 'Comic Sans MS',
         color: '#76106A',
         textAlign: "center",
-        position: 'fixed',
-        //position: 'absolute',
-        width: '100%',
-        right: '0',
-        bottom: '0',
-        left: '0',
+        padding: "30px 30px",
+        position: 'relative',
+        height: '250px',
 };
 
 const footerContainer :CSS.Properties={
-    marginTop:'20px'
+
 };
 
 const ul: CSS.Properties={
