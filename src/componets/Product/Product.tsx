@@ -38,5 +38,4 @@ export default function Product(props:productProps) {
             </CustomModal>
         </div>
     )
-    
 }
