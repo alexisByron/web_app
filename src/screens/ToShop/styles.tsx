@@ -1,9 +1,9 @@
-import CSS from 'csstype';
+import CSS from "csstype";
 
 const fondo: CSS.Properties = {
-    textAlign: 'center',
+  textAlign: "center",
 };
 
 export const styles = {
-    fondo
-}
+  fondo,
+};
