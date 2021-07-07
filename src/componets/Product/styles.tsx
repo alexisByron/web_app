@@ -3,12 +3,12 @@ import { Colors } from "../../Theme";
 
 const Product: CSS.Properties = {
   border: `1px solid ${Colors.background}`,
-  height: "300px",
+  height: "450px",
   boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
 };
 
 const ProductImg: CSS.Properties = {
-  height: "150px",
+  height: "250px",
 };
 
 const CustomBtn: CSS.Properties = {

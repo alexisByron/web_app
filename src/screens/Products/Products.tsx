@@ -16,7 +16,7 @@ function Products(props: any) {
         {newArray?.products.map((element) => {
           return (
             <div
-              className="col-8 col-lg-3 col-md-6"
+              className="col-12 col-md-6 col-lg-4 col-xl-2"
               key={element.idProducto}
               style={styles.ProductElement}
             >

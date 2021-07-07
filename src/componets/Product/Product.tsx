@@ -23,12 +23,16 @@ export default function Product(props: productProps) {
         }}
       />
       <div className="card-body text-center">
-        <h5 className="card-title text-center">{props.nombreProducto}</h5>
-        <Link to="/ToShop" className="btn" style={styles.CustomBtn}>
-          <h6>
-            Agregar a carro
-          </h6>
-        </Link>
+        <h5 className="card-title text-left">{props.nombreProducto}</h5>
+        <h5 className="card-title text-left">precio $12.990</h5>
+        <div>
+          <Link to="/ToShop" className="btn" style={styles.CustomBtn}>
+            <h6>
+              Agregar a carro
+            </h6>
+          </Link>
+        </div>
+       
       </div>
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
         <div className="row" style={styles.ModalContent}>

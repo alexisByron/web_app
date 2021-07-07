@@ -1,5 +1,6 @@
 import CSS from "csstype";
-import fondoHeader from '../../assests/img/fondoHeader.jpg';
+import fondoHeader from '../../assests/img/fondoHeader.jpeg';
+
 
 const header: CSS.Properties = {
   height: "250px",
@@ -9,7 +10,7 @@ const header: CSS.Properties = {
   textAlign: "center",
   backgroundImage:`url(${fondoHeader})`,
   borderBottomLeftRadius:'40%',
-  borderBottomRightRadius:'40%'
+  borderBottomRightRadius:'40%',
 };
 
 export const styles = {
