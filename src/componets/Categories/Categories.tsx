@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { styles } from "./styles";
 
-class Categories extends React.Component {
-  render() {
+function Categories()  {
     return (
       <div className="row justify-content-center">
         <h6 style={{ margin: 20 }}>
@@ -23,7 +22,7 @@ class Categories extends React.Component {
         </h6>
       </div>
     );
-  }
 }
+
 
 export default Categories;
