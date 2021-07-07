@@ -2,8 +2,7 @@ import React from "react";
 import logo from "../../assests/img/logo.png";
 import { styles } from "./styles";
 
-class Header extends React.Component {
-  render() {
+function Header(){
     return (
       <div className="row justify-content-center" style={styles.header}>
         <h1  style={{alignSelf:'center'}}>Nombre</h1>
@@ -11,7 +10,6 @@ class Header extends React.Component {
         <h1 style={{alignSelf:'center'}}>Negocio</h1>
       </div>
     );
-  }
 }
 
 export default Header;
