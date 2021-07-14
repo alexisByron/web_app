@@ -1,18 +1,28 @@
 import CSS from "csstype";
-import fondoHeader from '../../assests/img/fondoHeader.jpeg';
-
+import fondoHeader from '../../assests/img/header.jpeg';
+import {Colors} from './../../Theme'
 
 const header: CSS.Properties = {
-  height: "250px",
-  left: 0,
-  top: 0,
-  right: 0,
+  height: "400px",
+  width:'100%',
+  backgroundRepeat: 'no-repeat',
   textAlign: "center",
   backgroundImage:`url(${fondoHeader})`,
-  borderBottomLeftRadius:'40%',
-  borderBottomRightRadius:'40%',
+  alignItems: 'center',
+  backgroundPosition:'right'
+};
+
+const headerText: CSS.Properties = {
+  fontStyle: 'normal',
+  fontWeight: 800,
+  fontSize: '72px',
+  lineHeight: '98px',
+  textAlign: 'center',
+  color:Colors.black,
+  padding:'20px'
 };
 
 export const styles = {
   header,
+  headerText
 };

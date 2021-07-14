@@ -13,7 +13,7 @@ code {
 }
 
 p,h1,h2,h3,h4,h5,h6,Link{
-  font-family: fantasy !important;
+  font-family: Inter !important;
 }
 
 a:hover{

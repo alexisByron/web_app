@@ -11,7 +11,10 @@ function Products(props: any) {
   );
   return (
     <React.Fragment>
-      <Categories />
+      <div style={{backgroundColor:'rgba(255, 99, 71, 0.4)',marginTop:'-30px',marginBottom:'20px'}}>
+        <Categories />
+      </div>
+     
       <div className="container-fluid row" style={styles.Productcontainer}>
         {newArray?.products.map((element) => {
           return (
