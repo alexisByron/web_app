@@ -9,7 +9,7 @@ export default function CustomButton(props: buttomProps) {
  
     return (
         <React.Fragment>
-            <button style={styleButton}>{props.text}</button>
+            <button style={styleButton} onClick={()=>{props.onClick()}}>{props.text}</button>
         </React.Fragment>
     );
 }

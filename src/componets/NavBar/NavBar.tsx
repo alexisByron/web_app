@@ -19,10 +19,16 @@ function NavBar()  {
                         <a>Contacto</a>
                     </li>
                     <li>
-                        <CustomButton text="Postulaciones" theme={EThemeNames.Secondary}/>
+                        <CustomButton
+                        text="Postulaciones"
+                        theme={EThemeNames.Secondary}
+                        onClick={()=>console.log("click Postulaciones")}/>
                     </li>
                     <li>
-                        <CustomButton text="Acceso Residentes" theme={EThemeNames.Primary}/>
+                        <CustomButton
+                        text="Acceso Residentes"
+                        theme={EThemeNames.Primary}
+                        onClick={()=>console.log("Acceso Residentes")}/>
                     </li>
                 </ul>
             </div>
