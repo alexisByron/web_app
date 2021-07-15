@@ -4,25 +4,27 @@ import { styles } from "./styles";
 
 function NavBar()  {
     return (
-      <div className="row justify-content-center" style={styles.navContainer}>
-        <div className="col-6" style={{textAlign:'center', alignItems: 'center',}}>
-            <p className="text-center">LogoEmpresa</p>
+        <div className="full-container" style={styles.navContainer}>
+            <div className="container-c d-flex align-content-between">
+                <div className="col-6">
+                    <p>LogoEmpresa</p>
+                </div>
+                <ul className="col-6 d-flex align-items-center justify-content-between">
+                    <li>
+                        <a>Propiedades</a>
+                    </li>
+                    <li>
+                        <a>Contacto</a>
+                    </li>
+                    <li>
+                        <button style={styles.ButtonSecondaty}>Postulaciones</button>
+                    </li>
+                    <li>
+                        <button style={styles.ButtonPrimary}>Acceso Residentes</button>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div className="col-6 row">
-            <div className="col-3" style={{textAlign:'center', alignItems: 'center',}}>
-                <p>Propiedades</p>
-            </div>
-            <div className="col-3" style={{textAlign:'center', alignItems: 'center',}}>
-                <p>Contacto</p>
-            </div>
-            <div className="col-3">
-                <button style={styles.ButtonSecondaty}>Postulaciones</button>
-            </div>
-            <div className="col-3">
-                <button style={styles.ButtonPrimary}>Acceso Residentes</button>
-            </div>
-        </div>
-      </div>
     );
 }
 
