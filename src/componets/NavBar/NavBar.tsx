@@ -1,6 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { styles } from "./styles";
+
+import CustomButton from '../CustomButton/CustomButton';
+import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 
 function NavBar()  {
     return (
@@ -17,10 +19,16 @@ function NavBar()  {
                         <a>Contacto</a>
                     </li>
                     <li>
-                        <button style={styles.ButtonSecondaty}>Postulaciones</button>
+                        <CustomButton
+                        text="Postulaciones"
+                        theme={EThemeNames.Secondary}
+                        onClick={()=>console.log("click Postulaciones")}/>
                     </li>
                     <li>
-                        <button style={styles.ButtonPrimary}>Acceso Residentes</button>
+                        <CustomButton
+                        text="Acceso Residentes"
+                        theme={EThemeNames.Primary}
+                        onClick={()=>console.log("Acceso Residentes")}/>
                     </li>
                 </ul>
             </div>
