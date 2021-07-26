@@ -18,7 +18,7 @@ const CustomBtn: CSS.Properties = {
 };
 
 const bodyItem: CSS.Properties = {
-  padding: "15px"
+  padding: "10px 15px 15px 15px"
 };
 
 const ModalContent: CSS.Properties = {
@@ -41,6 +41,16 @@ const ModalDescription: CSS.Properties = {
   textAlign: "left",
 };
 
+const productTitle: CSS.Properties = {
+  fontWeight: 700,
+  fontSize: "16px",
+  color: "#22589D"
+}
+
+const contentIconsProduct: CSS.Properties = {
+  color: "rgba(0,0,0, .36)"
+}
+
 export const styles = {
   Product,
   ProductImg,
@@ -49,5 +59,7 @@ export const styles = {
   ModalContent,
   containerImgModal,
   ModalDescription,
-  bodyItem
+  bodyItem,
+  productTitle,
+  contentIconsProduct
 };

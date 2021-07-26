@@ -7,47 +7,47 @@ export const categoryAndProducts = [
     products: [
       {
         idProducto: 0,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 1,
-        nombreProducto: "Torta chocolate",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 2,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 3,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 4,
-        nombreProducto: "Torta chocolate",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 5,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 6,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 7,
-        nombreProducto: "Torta chocolate",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 8,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
     ],
@@ -58,7 +58,7 @@ export const categoryAndProducts = [
     products: [
       {
         idProducto: 0,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
     ],
@@ -69,22 +69,22 @@ export const categoryAndProducts = [
     products: [
       {
         idProducto: 0,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 1,
-        nombreProducto: "Torta chocolate",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 2,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
       {
         idProducto: 3,
-        nombreProducto: "Torta frutilla",
+        nombreProducto: "Juan Mitjans 105",
         imagen: productImage,
       },
     ],

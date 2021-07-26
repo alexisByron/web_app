@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { InlineIcon } from '@iconify/react';
+import mapMarkerAlt from '@iconify/icons-fa-solid/map-marker-alt';
+import bedIcon from '@iconify/icons-fa-solid/bed';
+import toiletIcon from '@iconify/icons-fa-solid/toilet';
 import { styles } from "./styles";
 import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 import { productProps } from "./interface/IProduct";
@@ -25,8 +29,26 @@ export default function Product(props: productProps) {
         }}
       />
       <div className="text-center" style={styles.bodyItem}>
-        <h5 className="card-title text-left">{props.nombreProducto}</h5>
-        <h5 className="card-title text-left">precio $12.990</h5>
+        <div className="d-flex justify-content-between" style={styles.contentIconsProduct}>
+          <div>
+            <InlineIcon icon={mapMarkerAlt} style={{fontSize: '12px', marginRight: "5px"}} />
+            <span style={{fontSize: "12px", fontWeight: 500}}>Macul</span>
+          </div>
+
+          <div className="d-flex">
+            <div>
+              <InlineIcon icon={bedIcon} style={{fontSize: '11.999999046325684px'}} />
+              <span style={{fontSize: "12px", fontWeight: 700, marginLeft: "10px", marginRight: "10px"}}>2</span>
+            </div>
+
+            <div>
+              <InlineIcon icon={toiletIcon} style={{fontSize: '12px'}} />
+              <span style={{fontSize: "12px", fontWeight: 700, marginLeft: "10px"}}>1</span>
+            </div>
+          </div>
+
+        </div>
+        <h5 className="text-left" style={styles.productTitle}>{props.nombreProducto}</h5>
         <div>
           <Link to="/ToShop" style={styles.CustomBtn}>
             <CustomButton text="Ver Detalles" theme={EThemeNames.Primary} onClick={() => console.log('a')} />
@@ -34,6 +56,8 @@ export default function Product(props: productProps) {
         </div>
        
       </div>
+
+
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
         <div className="row" style={styles.ModalContent}>
           <div className="col-12 col-md-8" style={styles.containerImgModal}>
