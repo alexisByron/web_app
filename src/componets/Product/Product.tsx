@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { styles } from "./styles";
+import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 import { productProps } from "./interface/IProduct";
 import CustomModal from "../Modal/CustomModal";
+import CustomButton from "../CustomButton/CustomButton";
 
 export default function Product(props: productProps) {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -22,14 +24,12 @@ export default function Product(props: productProps) {
           openModal();
         }}
       />
-      <div className="card-body text-center">
+      <div className="text-center" style={styles.bodyItem}>
         <h5 className="card-title text-left">{props.nombreProducto}</h5>
         <h5 className="card-title text-left">precio $12.990</h5>
         <div>
-          <Link to="/ToShop" className="btn" style={styles.CustomBtn}>
-            <h6>
-              Agregar a carro
-            </h6>
+          <Link to="/ToShop" style={styles.CustomBtn}>
+            <CustomButton text="Ver Detalles" theme={EThemeNames.Primary} onClick={() => console.log('a')} />
           </Link>
         </div>
        

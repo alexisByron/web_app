@@ -1,3 +1,5 @@
+import productImage from '../../assests/img/foto-product.jpg'
+
 export const categoryAndProducts = [
   {
     id: 0,
@@ -6,50 +8,47 @@ export const categoryAndProducts = [
       {
         idProducto: 0,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 1,
         nombreProducto: "Torta chocolate",
-        imagen:
-          "https://t2.rg.ltmcdn.com/es/images/1/9/6/torta_de_chocolate_esponjosa_10691_600.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 2,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 3,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 4,
         nombreProducto: "Torta chocolate",
-        imagen:
-          "https://t2.rg.ltmcdn.com/es/images/1/9/6/torta_de_chocolate_esponjosa_10691_600.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 5,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 6,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 7,
         nombreProducto: "Torta chocolate",
-        imagen:
-          "https://t2.rg.ltmcdn.com/es/images/1/9/6/torta_de_chocolate_esponjosa_10691_600.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 8,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
     ],
   },
@@ -60,7 +59,7 @@ export const categoryAndProducts = [
       {
         idProducto: 0,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
     ],
   },
@@ -71,23 +70,22 @@ export const categoryAndProducts = [
       {
         idProducto: 0,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 1,
         nombreProducto: "Torta chocolate",
-        imagen:
-          "https://t2.rg.ltmcdn.com/es/images/1/9/6/torta_de_chocolate_esponjosa_10691_600.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 2,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
       {
         idProducto: 3,
         nombreProducto: "Torta frutilla",
-        imagen: "http://www.maffi.cl/79/torta-frutilla.jpg",
+        imagen: productImage,
       },
     ],
   },
