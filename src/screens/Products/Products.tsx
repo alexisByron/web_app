@@ -15,20 +15,15 @@ function Products(props: any) {
         <Categories />
       </div>
      
-      <div className="container-fluid row" style={styles.Productcontainer}>
+      <div className="container-c" style={styles.Productcontainer}>
         {newArray?.products.map((element) => {
           return (
-            <div
-              className="col-12 col-md-6 col-lg-4 col-xl-2"
+            <Product
               key={element.idProducto}
-              style={styles.ProductElement}
-            >
-              <Product
-                id={element.idProducto}
-                imagen={element.imagen}
-                nombreProducto={element.nombreProducto}
-              />
-            </div>
+              id={element.idProducto}
+              imagen={element.imagen}
+              nombreProducto={element.nombreProducto}
+            />
           );
         })}
       </div>

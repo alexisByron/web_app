@@ -1,5 +1,5 @@
 import CSS from "csstype";
-import fondoHeader from '../../assests/img/header.jpeg';
+import fondoHeader from '../../assests/img/header.png';
 import {Colors} from './../../Theme'
 
 const header: CSS.Properties = {

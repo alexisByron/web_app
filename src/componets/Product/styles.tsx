@@ -2,18 +2,23 @@ import CSS from "csstype";
 import { Colors } from "../../Theme";
 
 const Product: CSS.Properties = {
-  border: `1px solid ${Colors.background}`,
-  height: "450px",
-  boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
+  background: "#FFFFFF",
+  border: "1px solid rgba(0, 0, 0, 0.06)",
+  boxSizing: "border-box",
+  borderRadius: "8px"
 };
 
 const ProductImg: CSS.Properties = {
-  height: "250px",
+  width: "100%"
 };
 
 const CustomBtn: CSS.Properties = {
-  backgroundColor: Colors.background,
   color: Colors.text,
+  width: "100%"
+};
+
+const bodyItem: CSS.Properties = {
+  padding: "10px 15px 15px 15px"
 };
 
 const ModalContent: CSS.Properties = {
@@ -36,6 +41,16 @@ const ModalDescription: CSS.Properties = {
   textAlign: "left",
 };
 
+const productTitle: CSS.Properties = {
+  fontWeight: 700,
+  fontSize: "16px",
+  color: "#22589D"
+}
+
+const contentIconsProduct: CSS.Properties = {
+  color: "rgba(0,0,0, .36)"
+}
+
 export const styles = {
   Product,
   ProductImg,
@@ -44,4 +59,7 @@ export const styles = {
   ModalContent,
   containerImgModal,
   ModalDescription,
+  bodyItem,
+  productTitle,
+  contentIconsProduct
 };
