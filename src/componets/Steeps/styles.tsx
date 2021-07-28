@@ -2,44 +2,46 @@ import CSS from "csstype";
 import {Colors} from "../../Theme";
 
 const containerSteeps: CSS.Properties = {
-    height: '424px',
     left: '0px',
     background: Colors.bluePrimary,
     marginBottom:'20px',
     marginTop:'20px',
-    paddingTop: '100px',
-    paddingLeft: '30px',
-    paddingRight: '30px'
+    paddingTop: '88px',
+    paddingBottom: '88px'
 };
 
 const rowSteeps: CSS.Properties = {
     background:'white',
     display: 'grid',
     gridTemplateColumns: 'repeat(4, 1fr)',
-    gridGap: '20px',
+    gridGap: '25px',
     gridAutoRows: 'minmax(100px, auto)',
-    height:'250px',
-    width: '100%',
-    borderRadius:'20px'
+    borderRadius:'20px',
+    padding: '50px 90px',
 };
 
 const steep: CSS.Properties = {
-    marginTop:'50px',
-    height: '150px',
-    paddingLeft: '30px',
-    paddingRight: '30px'
 }
 
 const rowNumbreSteep: CSS.Properties={
-    display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
+    display: 'flex',
+    justifyContent: 'space-between',
+    width: '90%',
+    marginBottom: '15px'
+}
+
+const dashedSteep: CSS.Properties = {
+    borderBottom: '2px dashed rgb(171, 232, 235)',
+    width: '80%',
+    alignSelf: 'center',
+    marginRight: '0px'
 }
 
 const circleNumber: CSS.Properties={
     width:' 24px',
     background: '#3268AE',
     height: '24px',
-    borderRadius: '50px',
+    borderRadius: '100%',
     textAlign: 'center',
     lineHeight: '24px',
 }
@@ -49,7 +51,6 @@ const numberText:CSS.Properties={
     fontStyle: 'normal',
     fontWeight: 'bold',
     fontSize: '13px',
-    lineHeight: '26px',
 }
 
 const title:CSS.Properties={
@@ -76,5 +77,6 @@ export const styles = {
     circleNumber,
     numberText,
     title,
-    text
+    text,
+    dashedSteep
 };
