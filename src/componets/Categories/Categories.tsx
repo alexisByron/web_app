@@ -6,18 +6,18 @@ function Categories()  {
     return (
       <div className="row justify-content-center">
         <h6 style={{ margin: 20 }}>
-          <Link to="/products/Tortas" style={styles.CustomFont}>
-            Tortas
+          <Link to="/ListAparment/Macul" style={styles.CustomFont}>
+          Macul
           </Link>
         </h6>
         <h6 style={{ margin: 20 }}>
-          <Link to="/products/Alfajores" style={styles.CustomFont}>
-            Alfajores
+          <Link to="/ListAparment/Quilicura" style={styles.CustomFont}>
+          Quilicura
           </Link>
         </h6>
         <h6 style={{ margin: 20 }}>
-          <Link to="/products/Matrimoios" style={styles.CustomFont}>
-            Matrimoios
+          <Link to="/ListAparment/Renca" style={styles.CustomFont}>
+          Renca
           </Link>
         </h6>
       </div>

@@ -2,12 +2,11 @@ import CSS from "csstype";
 import {Colors} from "../../Theme";
 
 const footer: CSS.Properties = {
-  backgroundColor: Colors.background,
+  backgroundColor: Colors.black,
   color: Colors.text,
   textAlign: "center",
-  padding: "30px 30px",
   position: "relative",
-  height: "250px",
+  height: "50px",
 };
 
 const footerContainer: CSS.Properties = {};

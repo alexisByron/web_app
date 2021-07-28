@@ -1,19 +1,23 @@
 import React from "react";
 import { styles } from "./styles";
-
 import CustomButton from '../CustomButton/CustomButton';
 import {EThemeNames} from '../CustomButton/enums/ECustomButton'
+import { Link } from "react-router-dom";
 
 function NavBar()  {
     return (
         <div className="full-container" style={styles.navContainer}>
             <div className="container-c d-flex align-content-between">
                 <div className="col-6">
-                    <p>LogoEmpresa</p>
+                <Link to="/Home">
+                    Home
+                </Link>
                 </div>
                 <ul className="col-6 d-flex align-items-center justify-content-between">
                     <li>
-                        <a>Propiedades</a>
+                    <Link to="/ListAparment/Quilicura">
+                        Propiedades
+                    </Link>
                     </li>
                     <li>
                         <a>Contacto</a>
