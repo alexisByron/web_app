@@ -50,7 +50,7 @@ export default function Product(props: productProps) {
         </div>
         <h5 className="text-left" style={styles.productTitle}>{props.nombreProducto}</h5>
         <div>
-          <Link to="/ToShop" style={styles.CustomBtn}>
+          <Link to="/AparmentDetail" style={styles.CustomBtn}>
             <CustomButton text="Ver Detalles" theme={EThemeNames.Primary} onClick={() => console.log('a')} />
           </Link>
         </div>

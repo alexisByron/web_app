@@ -2,19 +2,21 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Layout from "./componets/Layout/Layout";
-import Products from "./screens/Products/Products";
-import ToShop from "./screens/ToShop/ToShop";
+import ListAparments from "./screens/ListAparments/ListAparments";
+import Home from "./screens/Home/Home";
+import AparmentDetail from "./screens/AparmentDetail/AparmentDetail";
 
 function App() {
   return (
     <BrowserRouter>
       <Layout>
         <Switch>
-          <Route exact path="/ToShop" component={ToShop} />
+          <Route exact path="/Home" component={Home} />
           <Route exact path="/">
-            <Redirect to="/products/Tortas" />
+            <Redirect to="/ListAparment/Quilicura" />
           </Route>
-          <Route exact path="/products/:categoty" component={Products}></Route>
+          <Route exact path="/ListAparment/:categoty" component={ListAparments}></Route>
+          <Route exact path="/AparmentDetail" component={AparmentDetail}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>

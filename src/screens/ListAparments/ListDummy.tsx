@@ -3,7 +3,7 @@ import productImage from '../../assests/img/foto-product.jpg'
 export const categoryAndProducts = [
   {
     id: 0,
-    category: "Tortas",
+    category: "Macul",
     products: [
       {
         idProducto: 0,
@@ -54,7 +54,7 @@ export const categoryAndProducts = [
   },
   {
     id: 1,
-    category: "Alfajores",
+    category: "Quilicura",
     products: [
       {
         idProducto: 0,
@@ -65,7 +65,7 @@ export const categoryAndProducts = [
   },
   {
     id: 2,
-    category: "Matrimoios",
+    category: "Renca",
     products: [
       {
         idProducto: 0,
