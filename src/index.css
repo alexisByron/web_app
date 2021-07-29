@@ -43,7 +43,11 @@ li{
   margin-right: auto;
 }
 
-.fefpEU {
+.pagination {
+  margin-top: 20px !important;
+}
+
+.pagination .pagination-item {
   list-style-type: none;
   padding: 10px;
   background: #fff;
@@ -60,10 +64,6 @@ li{
   font-weight: 600 !important;
 }
 
-.fefpEU.active {
+.pagination .pagination-item.active {
   background: rgba(50, 104, 174, 0.31) !important;
-}
-
-.pagination {
-  margin-top: 20px !important;
 }
