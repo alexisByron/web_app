@@ -5,6 +5,7 @@ import Layout from "./componets/Layout/Layout";
 import ListAparments from "./screens/ListAparments/ListAparments";
 import Home from "./screens/Home/Home";
 import AparmentDetail from "./screens/AparmentDetail/AparmentDetail";
+import { Filter } from "./componets/Filter/Filter";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </Route>
           <Route exact path="/ListAparment/:categoty" component={ListAparments}></Route>
           <Route exact path="/AparmentDetail" component={AparmentDetail}></Route>
+          <Route exact path="/filter" component={Filter}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
