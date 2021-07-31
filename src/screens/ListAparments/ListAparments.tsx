@@ -63,7 +63,7 @@ function ListAparments(props: any) {
       <Steeps />
       <ContactForm />
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
-        <Filter />
+        <Filter comunas={props.match.params.comuna} rooms={props.match.params.rooms} bathrooms={props.match.params.bathrooms} />
       </CustomModal>
     </React.Fragment>
   );

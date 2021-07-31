@@ -1,12 +1,15 @@
 import React from 'react'
 import CustomButton from '../CustomButton/CustomButton'
 import { EThemeNames } from '../CustomButton/enums/ECustomButton'
-import { InlineIcon } from '@iconify/react';
-import baselineClose from '@iconify/icons-ic/baseline-close';
 import { styles } from './styles'
 import arrowSelect from '../../assests/img/arrow-select.svg'
+import { ComunasFiltered } from '../ComunasFiltered/ComunasFiltered'
 
-export const Filter = () => {
+export const Filter = (props: any) => {
+
+    const comunas = props.comunas.split('-')
+    const { rooms, bathrooms } = props
+    
     return (
         <div style={{width: '450px'}}>
             <div className="head-filter mb-4" style={{textAlign: 'center', fontSize: '16px', fontWeight: 500, width: '318px', marginRight: 'auto', marginLeft: 'auto'}}>
@@ -20,63 +23,30 @@ export const Filter = () => {
                     </select>
                 </div>
             </div>
-            <div className="comunas-filtradas d-flex mb-2 mt-2 flex-wrap">
-                <div className="item-comuna px-2" style={{borderRadius: '2px', background: '#3268AE', height: '20px', lineHeight: '17px', marginRight: '10px', marginBottom: '10px'}}>
-                    <span className="mr-2" style={{fontSize: '11px', fontWeight: 500, color: '#fff'}}>Macul</span>
-                    <InlineIcon icon={baselineClose} style={{color: '#ffffff', fontSize: '12px'}} />
-                </div>
 
-                <div className="item-comuna px-2" style={{borderRadius: '2px', background: '#3268AE', height: '20px', lineHeight: '17px', marginRight: '10px', marginBottom: '10px'}}>
-                    <span className="mr-2" style={{fontSize: '11px', fontWeight: 500, color: '#fff'}}>Estación Central</span>
-                    <InlineIcon icon={baselineClose} style={{color: '#ffffff', fontSize: '12px'}} />
-                </div>
+            {(props.comunas.toLowerCase() != 'all') ? <ComunasFiltered comunas={comunas} /> : <div className="mt-3"></div> }
 
-                <div className="item-comuna px-2" style={{borderRadius: '2px', background: '#3268AE', height: '20px', lineHeight: '17px', marginRight: '10px', marginBottom: '10px'}}>
-                    <span className="mr-2" style={{fontSize: '11px', fontWeight: 500, color: '#fff'}}>Providencia</span>
-                    <InlineIcon icon={baselineClose} style={{color: '#ffffff', fontSize: '12px'}} />
-                </div>
 
-                <div className="item-comuna px-2" style={{borderRadius: '2px', background: '#3268AE', height: '20px', lineHeight: '17px', marginRight: '10px', marginBottom: '10px'}}>
-                    <span className="mr-2" style={{fontSize: '11px', fontWeight: 500, color: '#fff'}}>Conchalí</span>
-                    <InlineIcon icon={baselineClose} style={{color: '#ffffff', fontSize: '12px'}} />
-                </div>
-
-                <div className="item-comuna px-2" style={{borderRadius: '2px', background: '#3268AE', height: '20px', lineHeight: '17px', marginRight: '10px', marginBottom: '10px'}}>
-                    <span className="mr-2" style={{fontSize: '11px', fontWeight: 500, color: '#fff'}}>Huechuraba</span>
-                    <InlineIcon icon={baselineClose} style={{color: '#ffffff', fontSize: '12px'}} />
-                </div>
-            </div>
             <div className="divider" style={{borderBottom: '1px solid rgba(0,0,0, .22)', width: '100%'}}></div>
             <div className="row-filter d-flex justify-content-between align-items-center w-100 py-3">
                 <div className="title" style={{fontWeight: 500, fontSize: '16px'}}>Habitaciones</div>
                 <div className="quantity" style={{display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gridColumnGap: '10px'}}>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>1</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantityActive}>2</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>3</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>4</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>5+</a>
+                    <a href="#" className="item-quantity" style={(rooms == '1') ? styles.itemQuantityActive : styles.itemQuantity}>1</a>
+                    <a href="#" className="item-quantity" style={(rooms == '2') ? styles.itemQuantityActive : styles.itemQuantity}>2</a>
+                    <a href="#" className="item-quantity" style={(rooms == '3') ? styles.itemQuantityActive : styles.itemQuantity}>3</a>
+                    <a href="#" className="item-quantity" style={(rooms == '4') ? styles.itemQuantityActive : styles.itemQuantity}>4</a>
+                    <a href="#" className="item-quantity" style={(rooms == '5+') ? styles.itemQuantityActive : styles.itemQuantity}>5+</a>
                 </div>
             </div>
             <div className="divider" style={{borderBottom: '1px solid rgba(0,0,0, .22)', width: '100%'}}></div>
             <div className="row-filter d-flex justify-content-between align-items-center w-100 py-3">
                 <div className="title" style={{fontWeight: 500, fontSize: '16px'}}>Baños</div>
                 <div className="quantity" style={{display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gridColumnGap: '10px'}}>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>1</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantityActive}>2</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>3</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>4</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>5+</a>
-                </div>
-            </div>
-            <div className="divider" style={{borderBottom: '1px solid rgba(0,0,0, .22)', width: '100%'}}></div>
-            <div className="row-filter d-flex justify-content-between align-items-center w-100 py-3">
-                <div className="title" style={{fontWeight: 500, fontSize: '16px'}}>Estacionamientos</div>
-                <div className="quantity" style={{display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gridColumnGap: '10px'}}>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>1</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantityActive}>2</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>3</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>4</a>
-                    <a href="#" className="item-quantity" style={styles.itemQuantity}>5+</a>
+                <a href="#" className="item-quantity" style={(bathrooms == '1') ? styles.itemQuantityActive : styles.itemQuantity}>1</a>
+                    <a href="#" className="item-quantity" style={(bathrooms == '2') ? styles.itemQuantityActive : styles.itemQuantity}>2</a>
+                    <a href="#" className="item-quantity" style={(bathrooms == '3') ? styles.itemQuantityActive : styles.itemQuantity}>3</a>
+                    <a href="#" className="item-quantity" style={(bathrooms == '4') ? styles.itemQuantityActive : styles.itemQuantity}>4</a>
+                    <a href="#" className="item-quantity" style={(bathrooms == '5+') ? styles.itemQuantityActive : styles.itemQuantity}>5+</a>
                 </div>
             </div>
 
