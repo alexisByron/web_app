@@ -8,7 +8,7 @@ import arrowSelect from '../../assests/img/arrow-select.svg'
 
 export const Filter = () => {
     return (
-        <div style={{width: '450px', marginLeft: 'auto', marginRight: 'auto', padding: '20px'}}>
+        <div style={{width: '450px'}}>
             <div className="head-filter mb-4" style={{textAlign: 'center', fontSize: '16px', fontWeight: 500, width: '318px', marginRight: 'auto', marginLeft: 'auto'}}>
                 Aplica filtros para encontrar la propiedad que buscas
             </div>

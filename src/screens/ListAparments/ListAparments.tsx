@@ -6,8 +6,13 @@ import { styles } from "./styles";
 import Steeps from "../../componets/Steeps/Steeps"; 
 import ContactForm from "../../componets/ContactForm/ContactForm";
 import CustomList from "../../componets/CustomList/CustomList";
+import CustomButton from "../../componets/CustomButton/CustomButton";
+import { EThemeNames } from "../../componets/CustomButton/enums/ECustomButton";
+import CustomModal from "../../componets/Modal/CustomModal";
+import { Filter } from "../../componets/Filter/Filter";
 
 function ListAparments(props: any) {
+  const [modalIsOpen, setIsOpen] = React.useState(false);
   let newArray = categoryAndProducts;
 
   if(props.match.params.comuna && props.match.params.comuna!=='all'){
@@ -47,11 +52,19 @@ function ListAparments(props: any) {
  
   return (
     <React.Fragment>
-      <div style={{marginTop:'50px',marginBottom:'100px'}}>
+      <div className="container-c">
+        <div className="btn-filter mt-4" style={{width: '100px'}}>
+          <CustomButton text="Filtros" theme={EThemeNames.Primary} onClick={() => setIsOpen(true)}/>
+        </div>
+      </div>
+      <div style={{marginTop:'20px',marginBottom:'100px'}}>
         {newArray.length>0?<CustomList list={newArray}/>:<h1>no hay registros</h1>}
       </div>
       <Steeps />
       <ContactForm />
+      <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
+        <Filter />
+      </CustomModal>
     </React.Fragment>
   );
 }
