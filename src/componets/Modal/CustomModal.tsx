@@ -7,10 +7,10 @@ import {Colors} from "../../Theme";
 
 const customStyles = {
   content: {
-    height: "430px",
-    width: "60%",
+    height: "350px",
+    width: "400px",
     margin: "auto",
-    boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
+    boxShadow: `rgb(186 186 186) -17px 17px 21px -5px`,
   },
 };
 

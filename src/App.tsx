@@ -14,9 +14,9 @@ function App() {
         <Switch>
           <Route exact path="/Home" component={Home} />
           <Route exact path="/">
-            <Redirect to="/ListAparment/Quilicura" />
+            <Redirect to="/Home"/>
           </Route>
-          <Route exact path="/ListAparment/:categoty" component={ListAparments}></Route>
+          <Route exact path="/ListAparment/:comuna/:rooms/:bathrooms" component={ListAparments}></Route>
           <Route exact path="/AparmentDetail" component={AparmentDetail}></Route>
           <Route exact path="/filter" component={Filter}></Route>
         </Switch>

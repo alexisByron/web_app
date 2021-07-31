@@ -8,17 +8,48 @@ import ContactForm from "../../componets/ContactForm/ContactForm";
 import CustomList from "../../componets/CustomList/CustomList";
 
 function ListAparments(props: any) {
-  const categoty = props.match.params.categoty;
-  const newArray = categoryAndProducts.filter(
-    (element) => element.comuna === categoty
-  );
+  let newArray = categoryAndProducts;
 
+  if(props.match.params.comuna && props.match.params.comuna!=='all'){
+    const comuna = props.match.params.comuna;
+    newArray = newArray.filter(
+      (element) => element.comuna === comuna
+    );
+  }
+
+  if(props.match.params.bathrooms){
+    const bathrooms = props.match.params.bathrooms;
+    const Fijo =  bathrooms.length==1?true:false;
+    if(Fijo){
+      newArray = newArray.filter(
+        (element) => element.bathRoom === parseInt(bathrooms)
+      );
+    }else{
+      newArray = newArray.filter(
+        (element) =>  element.bathRoom >= parseInt(bathrooms.slice(0,1))
+      );
+    }
+  }
+
+  if(props.match.params.rooms){
+    const rooms = props.match.params.rooms;
+    const Fijo =  rooms.length==1?true:false;
+    if(Fijo){
+      newArray = newArray.filter(
+        (element) => element.bedRooms === parseInt(rooms)
+      );
+    }else{
+      newArray = newArray.filter(
+        (element) =>  element.bedRooms >= parseInt(rooms.slice(0,1))
+      );
+    }
+  }
+ 
   return (
     <React.Fragment>
-      <div style={{backgroundColor:'rgba(255, 99, 71, 0.4)',marginTop:'-30px',marginBottom:'20px'}}>
-        <Categories />
+      <div style={{marginTop:'50px',marginBottom:'100px'}}>
+        {newArray.length>0?<CustomList list={newArray}/>:<h1>no hay registros</h1>}
       </div>
-      <CustomList list={newArray}/>
       <Steeps />
       <ContactForm />
     </React.Fragment>
@@ -26,15 +57,3 @@ function ListAparments(props: any) {
 }
 
 export default ListAparments;
-/*
- {newArray?.products.map((element) => {
-          return (
-            <Product
-              key={element.idProducto}
-              id={element.idProducto}
-              imagen={element.imagen}
-              nombreProducto={element.nombreProducto}
-            />
-          );
-        })}
-*/

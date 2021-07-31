@@ -7,10 +7,9 @@ function Layout(props: any) {
   return (
     <React.Fragment>
       <NavBar />
-      <Header />
-        <div style={{ marginBottom: "auto" }}>
-          {props.children}
-        </div>
+      <div style={{ marginBottom: "auto" }}>
+        {props.children}
+      </div>
       <Footer />
     </React.Fragment>
   );
