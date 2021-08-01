@@ -7,10 +7,16 @@ import {Colors} from "../../Theme";
 
 const customStyles = {
   content: {
-    height: "350px",
-    width: "400px",
+    height: "max-content",
+    width: "max-content",
     margin: "auto",
-    boxShadow: `rgb(186 186 186) -17px 17px 21px -5px`,
+    border: '0px',
+    borderRadius: '8px',
+    animation: 'bounce',
+    animationDuration: '2s'
+  },
+  overlay: {
+    backgroundColor: 'rgba(0,0,0, .25)'
   },
 };
 

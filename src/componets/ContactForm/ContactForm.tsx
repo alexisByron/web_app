@@ -15,29 +15,29 @@ function ContactForm(){
                 <div className="row"  style={{margin:'10px'}}>
                     <div className="col-6">
                         <label htmlFor="name" style={styles.label}>Nombre</label>
-                        <input type="text" className="form-control" {...register("name")}/>
+                        <input type="text" className="form-control" style={{height:'48px'}} {...register("name")}/>
                     </div>
                     <div className="col-6">
                         <label htmlFor="lastName" style={styles.label}>Apellidos</label>
-                        <input type="text" className="form-control" {...register("lastName")}/>
+                        <input type="text" className="form-control" style={{height:'48px'}} {...register("lastName")}/>
                     </div>
                 </div>
 
                 <div className="row"  style={{margin:'10px'}}>
                     <div className="col-6">
                         <label htmlFor="phone" style={styles.label}>Teléfono</label>
-                        <input type="text" className="form-control" {...register("phone")}/>
+                        <input type="text" className="form-control" style={{height:'48px'}} {...register("phone")}/>
                     </div>
                     <div className="col-6">
                         <label htmlFor="email" style={styles.label}>Correo electrónico</label>
-                        <input type="text" className="form-control" {...register("email")}/>
+                        <input type="text" className="form-control" style={{height:'48px'}} {...register("email")}/>
                     </div>
                 </div>
 
                 <div className="row"  style={{margin:'10px'}}>
                     <div className="col-12">
                         <label htmlFor="message" style={styles.label}>Mensaje</label>
-                        <textarea className="form-control" {...register("message")}/>
+                        <textarea className="form-control" style={{height:'48px'}} {...register("message")}/>
                     </div>
                 </div>
 

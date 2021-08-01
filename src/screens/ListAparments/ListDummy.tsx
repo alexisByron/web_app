@@ -11,7 +11,7 @@ export const categoryAndProducts = [
     imagenPrincipal:productImage,
     imgs: [productImage,productImage],
     comuna: "Macul",
-    bathRoom: 1,
+    bathRoom: 3,
     bedRooms: 1,
     dimentions: '200 mt2',
     parking: 1,
@@ -19,8 +19,8 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
-    other:['cosina linda','caño en living'],
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
+    other:['cosina linda','caño en living','aplio pario','vecinos wena onda'],
     createdAt:'20/07/2021'
   },
   {
@@ -37,7 +37,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -55,7 +55,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -73,7 +73,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -91,7 +91,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -109,7 +109,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -127,7 +127,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -145,7 +145,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -163,7 +163,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -181,7 +181,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -199,7 +199,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -217,7 +217,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -235,7 +235,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -253,7 +253,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -271,7 +271,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -289,7 +289,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -307,7 +307,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -325,7 +325,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -343,7 +343,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -361,7 +361,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -379,7 +379,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -397,7 +397,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -415,7 +415,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -433,7 +433,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -451,7 +451,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -469,7 +469,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -487,7 +487,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -505,7 +505,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -523,7 +523,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -541,7 +541,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -559,7 +559,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -577,7 +577,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -595,7 +595,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -613,7 +613,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -631,7 +631,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -649,7 +649,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -667,7 +667,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -685,7 +685,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -703,7 +703,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -721,7 +721,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -740,7 +740,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -758,7 +758,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -776,7 +776,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -794,7 +794,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -812,7 +812,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -830,7 +830,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -848,7 +848,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -866,7 +866,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -884,7 +884,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -902,7 +902,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -920,7 +920,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -938,7 +938,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -956,7 +956,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -974,7 +974,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -992,7 +992,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -1010,7 +1010,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -1028,7 +1028,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -1046,7 +1046,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -1064,7 +1064,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },
@@ -1082,7 +1082,7 @@ export const categoryAndProducts = [
     priceCommonExpenses: '100.000',
     video:'link yt',
     map:{lat:'',long:''},
-    description:'',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.',
     other:['cosina linda','caño en living'],
     createdAt:'20/07/2021'
   },

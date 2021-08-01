@@ -17,8 +17,7 @@ function App() {
             <Redirect to="/Home"/>
           </Route>
           <Route exact path="/ListAparment/:comuna/:rooms/:bathrooms" component={ListAparments}></Route>
-          <Route exact path="/AparmentDetail" component={AparmentDetail}></Route>
-          <Route exact path="/filter" component={Filter}></Route>
+          <Route exact path="/AparmentDetail/:idAparment" component={AparmentDetail}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
