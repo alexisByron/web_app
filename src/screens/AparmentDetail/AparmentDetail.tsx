@@ -87,7 +87,8 @@ function AparmentDetail(props:any){
           </div>
       </div>
 
-      <div style={{padding:'30px'}}>
+      <div style={{padding:'50px'}}>
+          <p style={{fontWeight: 'bold',fontSize: '36px'}}>Propiedades que te pueden interesar</p>
           <div style={{height:'250px',marginBottom:'100px',display: 'grid',gridTemplateColumns: 'repeat(4, 1fr)',gridColumnGap:'10px'}}>
             <RenderAparment aparment={categoryAndProducts[0]}/>
             <RenderAparment aparment={categoryAndProducts[1]}/>
