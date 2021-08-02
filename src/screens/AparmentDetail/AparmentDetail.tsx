@@ -13,11 +13,15 @@ import { categoryAndProducts } from "../ListAparments/ListDummy";
 import ContactForm from "../../componets/ContactForm/ContactForm";
 import Product from "../../componets/Product/Product";
 import CustomButton from "../../componets/CustomButton/CustomButton";
+import CustomModal from "../../componets/Modal/CustomModal";
 import { EThemeNames } from "../../componets/CustomButton/enums/ECustomButton";
 import 'react-bnb-gallery/dist/style.css'
+import mapDetail from "../../assests/img/map-detail.jpeg"
 
 function AparmentDetail(props:any){
     const [isOpenGallery, setIsOpenGallery] = useState(false);
+    const [isOpenMap, setIsOpenMap] = useState(false);
+    const [isOpenVideo, setIsOpenVideo] = useState(false);
     const idSearched = props.match.params.idAparment;
 
     const aparmentSelectedArray = categoryAndProducts.filter(
@@ -48,6 +52,22 @@ function AparmentDetail(props:any){
           photos={aparmentSelected.imgs}
           onClose={() => setIsOpenGallery(false)}
         />
+        <CustomModal isOpen={isOpenMap} setIsOpen={setIsOpenMap}>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.88563507662!2d-70.6238625845385!3d-33.47832818076597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cff48089845b%3A0xcc73455ef536b7ff!2sJuan%20Mitjans%20105%2C%20Macul%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627868394084!5m2!1ses!2scl" 
+            width="450" 
+            height="450" 
+            style={{border:0}}
+            loading="lazy"></iframe>
+        </CustomModal>
+        <CustomModal isOpen={isOpenVideo} setIsOpen={setIsOpenVideo}>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/3IYompL8FBw" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </CustomModal>
         <div style={{width: '95%', maxWidth:'1000px',margin:'auto'}}>
             <div style={{display: 'grid',gridTemplateColumns: 'repeat(3, 1fr)', gridColumnGap: '30px',marginTop:'66px'}}>
 
@@ -59,7 +79,7 @@ function AparmentDetail(props:any){
                 <div style={{position: 'absolute', width: '100%', height: '100%', backgroundColor: '#000', opacity: '0.44', zIndex: 0, borderRadius: '8px'}}></div>
               </div>
 
-              <div className="d-flex align-items-center justify-content-center" style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
+              <div className="d-flex align-items-center justify-content-center" onClick={() => setIsOpenVideo(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
                 <div className="text-center" style={{color: '#fff', zIndex: 1}}>
                   <Icon icon={baselineSlowMotionVideo} style={{color: '#ffffff', fontSize: '28px'}} />
                   <span className="d-block">Ver video</span>
@@ -67,7 +87,7 @@ function AparmentDetail(props:any){
                 <div style={{position: 'absolute', width: '100%', height: '100%', backgroundColor: '#000', opacity: '0.44', zIndex: 0, borderRadius: '8px'}}></div>
               </div>
 
-              <div className="d-flex align-items-center justify-content-center" style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
+              <div className="d-flex align-items-center justify-content-center" onClick={() => setIsOpenMap(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+mapDetail+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
                 <div className="text-center" style={{color: '#fff', zIndex: 1}}>
                   <Icon icon={outlineMap} style={{color: '#ffffff', fontSize: '28px'}} />
                   <span className="d-block">Ver mapa</span>
