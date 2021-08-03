@@ -1,5 +1,5 @@
 import CSS from "csstype";
-import {Colors} from "../../Theme";
+import { Colors } from "../../Theme";
 
 const footer: CSS.Properties = {
   backgroundColor: Colors.black,

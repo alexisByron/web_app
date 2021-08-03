@@ -3,37 +3,37 @@ import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import { modalProps } from "./interface/ICustomModal";
 import { styles } from "./styles";
-import {Colors} from "../../Theme";
+import { Colors } from "../../Theme";
 
 const customStyles = {
   content: {
     height: "max-content",
     width: "max-content",
     margin: "auto",
-    border: '0px',
-    borderRadius: '8px',
-    animation: 'bounce',
-    animationDuration: '2s'
+    border: "0px",
+    borderRadius: "8px",
+    animation: "bounce",
+    animationDuration: "2s",
   },
   overlay: {
-    backgroundColor: 'rgba(0,0,0, .25)'
+    backgroundColor: "rgba(0,0,0, .25)",
   },
 };
 
-export default function CustomModal(props: modalProps) {
+export const CustomModal = ({ isOpen, setIsOpen, children }: modalProps) => {
   Modal.setAppElement("body");
   return (
     <div>
       <Modal
-        isOpen={props.isOpen}
+        isOpen={isOpen}
         onRequestClose={() => {
-          props.setIsOpen(false);
+          setIsOpen(false);
         }}
         style={customStyles}
         contentLabel="Example Modal"
       >
-        {props.children}
+        {children}
       </Modal>
     </div>
   );
-}
+};

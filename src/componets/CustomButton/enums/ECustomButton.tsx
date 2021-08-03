@@ -1,4 +1,4 @@
 export enum EThemeNames {
-    Primary = 'Primary',
-    Secondary = 'Secondary',
+  Primary = "Primary",
+  Secondary = "Secondary",
 }
