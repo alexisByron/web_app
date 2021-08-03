@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import NavBar from "../NavBar/NavBar"; "../../componets/NavBar/NavBar";
-import Header from "../../componets/Header/Header";
 import Footer from "../../componets/Footer/Footer";
+import ContactForm from "../ContactForm/ContactForm";
 
 function Layout(props: any) {
+  const refContact = useRef(null);
   return (
     <React.Fragment>
       <NavBar />
-      <Header />
-        <div style={{ marginBottom: "auto" }}>
-          {props.children}
-        </div>
+      <div style={{ marginBottom: "auto" }}>
+        {props.children}
+      </div>
+      <ContactForm />
       <Footer />
     </React.Fragment>
   );

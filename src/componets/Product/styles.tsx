@@ -9,7 +9,8 @@ const Product: CSS.Properties = {
 };
 
 const ProductImg: CSS.Properties = {
-  width: "100%"
+  width: "100%",
+  height:"150px"
 };
 
 const CustomBtn: CSS.Properties = {

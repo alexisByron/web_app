@@ -5,6 +5,16 @@ const navContainer: CSS.Properties = {
     padding:'10px'
 }
 
+const label: CSS.Properties = {
+  fontFamily: 'Manrope',
+  fontStyle: 'normal',
+  fontWeight: 'bold',
+  fontSize: '14px',
+  lineHeight: '20px',
+  textAlign:'left'
+};
+
 export const styles = {
-  navContainer
+  navContainer,
+  label
 };

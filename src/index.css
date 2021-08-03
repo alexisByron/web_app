@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Inter' !important;
+  color: '#18191F';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: red;
@@ -66,4 +67,47 @@ li{
 
 .pagination .pagination-item.active {
   background: rgba(50, 104, 174, 0.31) !important;
+}
+
+.select-filter{
+  border: 1px solid rgba(0,0,0, .15);
+  background: white;
+  width: 280px;
+  height: 35px;
+  font-size: 11px;
+  color: rgba(0,0,0, .44);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+
+.select-search{
+  border: 0px;
+  background: white;
+  width: 280px;
+  height: 35px;
+  font-size: 18px;
+  color: '#212529';
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+
+.ReactCollapse--collapse{
+  z-index: 0;
+  position: absolute;
+  background-color: white;  
+  margin-top: -10px;
+}
+
+.ReactModal__Overlay{
+  z-index: 3;
 }

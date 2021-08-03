@@ -5,7 +5,6 @@ const containerSteeps: CSS.Properties = {
     left: '0px',
     background: Colors.bluePrimary,
     marginBottom:'20px',
-    marginTop:'20px',
     paddingTop: '88px',
     paddingBottom: '88px'
 };
