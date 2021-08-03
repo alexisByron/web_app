@@ -8,6 +8,7 @@ import CustomModal from "../Modal/CustomModal";
 
 function NavBar()  {
     const [modalIsOpen, setIsOpen] = React.useState(false);
+    const [modalPostulacionIsOpen, setModalPostulacionIsOpen] = React.useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data: any) => console.log(data);
 
@@ -32,7 +33,7 @@ function NavBar()  {
                         <CustomButton
                         text="Postulaciones"
                         theme={EThemeNames.Secondary}
-                        onClick={()=>console.log("click Postulaciones")}/>
+                        onClick={()=>setModalPostulacionIsOpen(true)}/>
                     </li>
                     <li>
                         <CustomButton
@@ -62,6 +63,24 @@ function NavBar()  {
                     </div>
                     <div style={{textAlign:'center', fontSize: '12px'}}>
                         <a href="#" >Recuperar Contraseña</a>
+                    </div>
+                </div>
+               
+            </CustomModal>
+
+            <CustomModal isOpen={modalPostulacionIsOpen} setIsOpen={setModalPostulacionIsOpen}>
+                <div style={{width: '230px'}}>
+
+                    <h3 style={{textAlign:'center', fontSize: '14px'}}>Consulta el estado de tu postulación</h3>
+                    <div className="mt-3" style={{marginBottom:'15px'}}>
+                        <input type="text" className="form-control" style={{height:'48px', fontSize: '12px'}} {...register("rut")} placeholder="Rut"/>
+                    </div>
+                    <div style={{marginBottom:'10px'}}>
+                        <CustomButton
+                            text="Consultar"
+                            theme={EThemeNames.Primary}
+                            onClick={handleSubmit(onSubmit)}
+                        />
                     </div>
                 </div>
                
