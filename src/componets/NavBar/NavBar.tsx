@@ -43,23 +43,26 @@ function NavBar()  {
                 </ul>
             </div>
             <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
-                <h3 style={{textAlign:'center'}}>Acceso Privado</h3>
-                <h6 style={{textAlign:'center'}}>Residentes - Corredores</h6>
-                <div style={{marginBottom:'20px'}}>
-                    <input type="text" className="form-control" style={{height:'48px'}} {...register("rut")} placeholder="Rut"/>
-                </div>
-                <div style={{marginBottom:'20px'}}>
-                    <input type="text" className="form-control" style={{height:'48px'}} {...register("password")} placeholder="Contraseña"/>
-                </div>
-                <div style={{marginBottom:'10px'}}>
-                    <CustomButton
-                        text="Acceder"
-                        theme={EThemeNames.Primary}
-                        onClick={handleSubmit(onSubmit)}
-                    />
-                </div>
-                <div style={{textAlign:'center'}}>
-                    <a href="#" >Recuperar Contraseña</a>
+                <div style={{width: '230px'}}>
+
+                    <h3 style={{textAlign:'center', fontSize: '18px'}}>Acceso Privado</h3>
+                    <h6 style={{textAlign:'center', fontSize: '12px', color: 'rgba(0,0,0, .40)'}}>Residentes - Corredores</h6>
+                    <div style={{marginBottom:'15px'}}>
+                        <input type="text" className="form-control" style={{height:'48px', fontSize: '12px'}} {...register("rut")} placeholder="Rut"/>
+                    </div>
+                    <div style={{marginBottom:'15px'}}>
+                        <input type="text" className="form-control" style={{height:'48px', fontSize: '12px'}} {...register("password")} placeholder="Contraseña"/>
+                    </div>
+                    <div style={{marginBottom:'10px'}}>
+                        <CustomButton
+                            text="Acceder"
+                            theme={EThemeNames.Primary}
+                            onClick={handleSubmit(onSubmit)}
+                        />
+                    </div>
+                    <div style={{textAlign:'center', fontSize: '12px'}}>
+                        <a href="#" >Recuperar Contraseña</a>
+                    </div>
                 </div>
                
             </CustomModal>
