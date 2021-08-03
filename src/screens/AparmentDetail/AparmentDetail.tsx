@@ -10,7 +10,6 @@ import baselineSlowMotionVideo from '@iconify/icons-ic/baseline-slow-motion-vide
 import outlineMap from '@iconify/icons-ic/outline-map';
 import carIcon from '@iconify/icons-fa-solid/car';
 import { categoryAndProducts } from "../ListAparments/ListDummy";
-import ContactForm from "../../componets/ContactForm/ContactForm";
 import Product from "../../componets/Product/Product";
 import CustomButton from "../../componets/CustomButton/CustomButton";
 import CustomModal from "../../componets/Modal/CustomModal";
@@ -159,7 +158,6 @@ function AparmentDetail(props:any){
               <RenderAparment aparment={categoryAndProducts[2]}/>
               <RenderAparment aparment={categoryAndProducts[3]}/>
             </div>
-            <ContactForm />
         </div>
       </React.Fragment>
     );

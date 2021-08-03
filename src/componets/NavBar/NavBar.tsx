@@ -1,15 +1,17 @@
-import React, {useState} from "react";
+import React, {useRef, useState} from "react";
 import { useForm } from "react-hook-form";
 import { styles } from "./styles";
 import CustomButton from '../CustomButton/CustomButton';
 import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll"
 import CustomModal from "../Modal/CustomModal";
 
 function NavBar()  {
-    const [modalIsOpen, setIsOpen] = React.useState(false);
-    const [modalPostulacionIsOpen, setModalPostulacionIsOpen] = React.useState(false);
+    const [modalIsOpen, setIsOpen] = useState(false);
+    const [modalPostulacionIsOpen, setModalPostulacionIsOpen] = useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm();
+
     const onSubmit = (data: any) => console.log(data);
 
     return (
@@ -22,20 +24,20 @@ function NavBar()  {
                 </div>
                 <ul className="col-6 d-flex align-items-center justify-content-between">
                     <li>
-                    <Link to="/ListAparment/all/1+/1+">
+                    <Link to="/ListAparment/all/1+/1+" style={{fontSize: '14px', fontWeight: 500, color: '#18191F'}}>
                         Propiedades
                     </Link>
                     </li>
                     <li>
-                        <a>Contacto</a>
+                        <LinkScroll to="contactForm" spy={true} smooth={true} style={{fontSize: '14px', fontWeight: 500, cursor: 'pointer'}}>Contacto</LinkScroll>
                     </li>
-                    <li>
+                    <li style={{width: '133px'}}>
                         <CustomButton
                         text="Postulaciones"
                         theme={EThemeNames.Secondary}
                         onClick={()=>setModalPostulacionIsOpen(true)}/>
                     </li>
-                    <li>
+                    <li style={{width: '188px'}}>
                         <CustomButton
                         text="Acceso Residentes"
                         theme={EThemeNames.Primary}

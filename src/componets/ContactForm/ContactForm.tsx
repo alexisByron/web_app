@@ -9,7 +9,7 @@ function ContactForm(){
     const onSubmit = (data: any) => console.log(data);
 
     return (
-        <div className="row">
+        <div id="contactForm" className="row">
             <div className="col-8" style={styles.containerForm}>
                 <h1 style={styles.title}>Resuelve tus dudas</h1>
                 <div className="row"  style={{margin:'10px'}}>

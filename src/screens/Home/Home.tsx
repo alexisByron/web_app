@@ -1,6 +1,5 @@
 import React from "react";
 import Steeps from "../../componets/Steeps/Steeps";
-import ContactForm from "../../componets/ContactForm/ContactForm";
 import CustomSearch from "../../componets/customSearch/CustomSearch";
 import Header from "../../componets/Header/Header";
 import monoHome from "../../assests/img/monoHome.svg";
@@ -24,7 +23,6 @@ function Home() {
           </div>
         </div>
       <Steeps />
-      <ContactForm />
     </React.Fragment>
   );
 }

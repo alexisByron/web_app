@@ -16,8 +16,14 @@ interface FilterProps {
 }
 
 export const Filter = (props:FilterProps) => {
-    //const comunas = props.comunas.split('-')
+    const comunas = props.comunas.split('-')
     const { rooms,setCantRoms, bathrooms,setCantBathRooms } = props
+
+    const addComunaArray = (e: any) => {
+        if(!comunas.includes(e.target.value)){
+            props.setComuna(`${comunas.join('-')}-${e.target.value}`)
+        }
+    }
     
     return (
         <div style={{width: '450px'}}>
@@ -27,7 +33,7 @@ export const Filter = (props:FilterProps) => {
             <div className="row-filter d-flex justify-content-between align-items-center w-100 pb-1">
                 <div className="title" style={{fontWeight: 500, fontSize: '16px'}}>Comunas</div>
                 <div className="quantity">
-                    <select name="comunas" id="comunas" className="select-filter" style={{background: 'url("'+arrowSelect+'") no-repeat 98%'}} value={props.comunas} onChange={(e)=>props.setComuna(e.target.value)}>
+                    <select name="comunas" id="comunas" className="select-filter" style={{background: 'url("'+arrowSelect+'") no-repeat 98%'}} value={props.comunas} onChange={addComunaArray}>
                     <option value="all">Buscar comuna...</option>
                     <option value="Las Condes">Las Condes</option>
                     <option value="Providencia">Providencia</option>
@@ -36,12 +42,11 @@ export const Filter = (props:FilterProps) => {
                     </select>
                 </div>
             </div>
-                {
-                //esta comentado mientras cambio la forma del filtro de comunas que reciba este string
-                /*
-                    {(props.comunas.toLowerCase() != 'all') ? <ComunasFiltered comunas={comunas} /> : <div className="mt-3"></div> }
-                */
-                }
+            {
+                (props.comunas.toLowerCase() != 'all') 
+                    ? <ComunasFiltered comunas={comunas} setComuna={props.setComuna} /> 
+                    : <div className="mt-3"></div> 
+            }
             <div className="divider" style={{borderBottom: '1px solid rgba(0,0,0, .22)', width: '100%'}}></div>
             <div className="row-filter d-flex justify-content-between align-items-center w-100 py-3">
                 <div className="title" style={{fontWeight: 500, fontSize: '16px'}}>Habitaciones</div>

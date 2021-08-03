@@ -4,7 +4,6 @@ import Categories from "../../componets/Categories/Categories";
 import { categoryAndProducts } from "./ListDummy";
 import { styles } from "./styles";
 import Steeps from "../../componets/Steeps/Steeps"; 
-import ContactForm from "../../componets/ContactForm/ContactForm";
 import CustomList from "../../componets/CustomList/CustomList";
 import CustomButton from "../../componets/CustomButton/CustomButton";
 import { EThemeNames } from "../../componets/CustomButton/enums/ECustomButton";
@@ -26,7 +25,7 @@ function ListAparments(props: any) {
 
     if(comuna!=='all'){
       newArray = newArray.filter(
-        (element:any) => element.comuna === comuna
+        (element:any) => comuna.split('-').includes(element.comuna)
       );
     }
 
@@ -44,6 +43,7 @@ function ListAparments(props: any) {
     }
  
     setList(newArray);
+    setIsOpen(false);
   };
 
   useEffect(() => {
@@ -61,7 +61,6 @@ function ListAparments(props: any) {
         {list.length>0?<CustomList list={list}/>:<h1>no hay registros</h1>}
       </div>
       <Steeps />
-      <ContactForm />
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
         <Filter comunas={comuna} setComuna={setComuna} rooms={cantRooms} setCantRoms={setCantRooms} bathrooms={cantBathRooms} setCantBathRooms={setCantBathRooms} submit={FilterAction}/>
       </CustomModal>
