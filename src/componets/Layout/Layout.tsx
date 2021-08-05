@@ -1,20 +1,18 @@
 import React, { useRef } from "react";
-import NavBar from "../NavBar/NavBar"; "../../componets/NavBar/NavBar";
+import { layoutProps } from "./interface/ILayout";
+import NavBar from "../NavBar/NavBar";
+("../../componets/NavBar/NavBar");
 import Footer from "../../componets/Footer/Footer";
 import ContactForm from "../ContactForm/ContactForm";
 
-function Layout(props: any) {
+export const Layout = ({ children }: layoutProps) => {
   const refContact = useRef(null);
   return (
     <React.Fragment>
       <NavBar />
-      <div style={{ marginBottom: "auto" }}>
-        {props.children}
-      </div>
+      <div style={{ marginBottom: "auto" }}>{children}</div>
       <ContactForm />
       <Footer />
     </React.Fragment>
   );
-}
-
-export default Layout;
+};
