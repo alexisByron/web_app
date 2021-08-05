@@ -13,8 +13,10 @@ function NavBar()  {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [modalPostulacionIsOpen, setModalPostulacionIsOpen] = useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm();
-
     const onSubmit = (data: any) => console.log(data);
+
+    const [navIsOpen, setNavIsOpen] = useState(false);
+    //open-nav
 
     return (
         <div className="full-container" style={styles.navContainer}>
@@ -25,8 +27,11 @@ function NavBar()  {
                     </Link>
                 </div>
                 <div>
-                    <Icon icon={menuIcon} className="btn-nav-xs" style={{fontSize: '24px'}} />
-                    <ul className="d-flex align-items-center justify-content-between">
+                    <div onClick={()=>{setNavIsOpen(!navIsOpen)}}>
+                        <Icon icon={menuIcon} className="btn-nav-xs" style={{fontSize: '24px', color:'red'}}/>
+                    </div>
+
+                    <ul className={`d-flex align-items-center justify-content-between ${navIsOpen? 'open-nav':'close-nav'}`}>
                         <li>
                             <Link to="/ListAparment/all/1+/1+" style={{fontSize: '14px', fontWeight: 500, color: '#18191F'}}>
                                 Propiedades
