@@ -10,7 +10,7 @@ function CustomList(props:any){
         list={props.list}
         itemsPerPage={12}
         renderList={(list) => (
-            <div className="container-c" style={{ display: "grid",
+            <div className="container-c grid-items" style={{ display: "grid",
             gridTemplateColumns: "repeat(4, calc(25% - 22.5px))",
             gridColumnGap: "30px",
             gridRowGap: "30px"}}>

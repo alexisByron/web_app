@@ -26,7 +26,7 @@ export const Filter = (props:FilterProps) => {
     }
     
     return (
-        <div style={{width: '450px'}}>
+        <div className="content-filter" style={{width: '450px'}}>
             <div className="head-filter mb-4" style={{textAlign: 'center', fontSize: '16px', fontWeight: 500, width: '318px', marginRight: 'auto', marginLeft: 'auto'}}>
                 Aplica filtros para encontrar la propiedad que buscas
             </div>

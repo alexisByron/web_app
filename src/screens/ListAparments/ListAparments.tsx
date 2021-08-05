@@ -51,7 +51,7 @@ function ListAparments(props: any) {
   },[]);
 
   return (
-    <React.Fragment>
+    <>
       <div className="container-c">
         <div className="btn-filter mt-4" style={{width: '100px'}}>
           <CustomButton text="Filtros" theme={EThemeNames.Primary} onClick={() => setIsOpen(true)}/>
@@ -64,7 +64,7 @@ function ListAparments(props: any) {
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
         <Filter comunas={comuna} setComuna={setComuna} rooms={cantRooms} setCantRoms={setCantRooms} bathrooms={cantBathRooms} setCantBathRooms={setCantBathRooms} submit={FilterAction}/>
       </CustomModal>
-    </React.Fragment>
+    </>
   );
 }
 

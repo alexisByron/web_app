@@ -68,9 +68,9 @@ function AparmentDetail(props:any){
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
         </CustomModal>
         <div style={{width: '95%', maxWidth:'1000px',margin:'auto'}}>
-            <div style={{display: 'grid',gridTemplateColumns: 'repeat(3, 1fr)', gridColumnGap: '30px',marginTop:'66px'}}>
+            <div className="grid-gallery" style={{display: 'grid',gridTemplateColumns: 'repeat(3, 1fr)', gridColumnGap: '30px',marginTop:'66px'}}>
 
-              <div className="d-flex align-items-center justify-content-center" onClick={() => setIsOpenGallery(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
+              <div className="item-gallery-details d-flex align-items-center justify-content-center" onClick={() => setIsOpenGallery(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
                 <div className="text-center" style={{color: '#fff', zIndex: 1}}>
                   <Icon icon={baselinePhotoCamera} style={{color: '#ffffff', fontSize: '28px'}} />
                   <span className="d-block">Ver fotos</span>
@@ -78,7 +78,7 @@ function AparmentDetail(props:any){
                 <div style={{position: 'absolute', width: '100%', height: '100%', backgroundColor: '#000', opacity: '0.44', zIndex: 0, borderRadius: '8px'}}></div>
               </div>
 
-              <div className="d-flex align-items-center justify-content-center" onClick={() => setIsOpenVideo(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
+              <div className="item-gallery-details d-flex align-items-center justify-content-center" onClick={() => setIsOpenVideo(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+aparmentSelected.imgs[0]+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
                 <div className="text-center" style={{color: '#fff', zIndex: 1}}>
                   <Icon icon={baselineSlowMotionVideo} style={{color: '#ffffff', fontSize: '28px'}} />
                   <span className="d-block">Ver video</span>
@@ -86,7 +86,7 @@ function AparmentDetail(props:any){
                 <div style={{position: 'absolute', width: '100%', height: '100%', backgroundColor: '#000', opacity: '0.44', zIndex: 0, borderRadius: '8px'}}></div>
               </div>
 
-              <div className="d-flex align-items-center justify-content-center" onClick={() => setIsOpenMap(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+mapDetail+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
+              <div className="item-gallery-details d-flex align-items-center justify-content-center" onClick={() => setIsOpenMap(true)} style={{cursor: 'pointer', backgroundImage: 'url("'+mapDetail+'")', backgroundSize: 'cover', height:'179px',width:'100%',borderRadius:'8px',margin:'auto', position: 'relative' }}>
                 <div className="text-center" style={{color: '#fff', zIndex: 1}}>
                   <Icon icon={outlineMap} style={{color: '#ffffff', fontSize: '28px'}} />
                   <span className="d-block">Ver mapa</span>
@@ -96,8 +96,8 @@ function AparmentDetail(props:any){
 
             </div>
 
-            <div className="mt-4" style={{display: 'grid', gridTemplateColumns: '66% 32%', gridColumnGap: '20px'}}>
-              <div style={{marginBottom:'100px',width:'60%'}}>
+            <div className="mt-4 grid-details" style={{display: 'grid', gridTemplateColumns: '66% 32%', gridColumnGap: '20px'}}>
+              <div className="left-col" style={{marginBottom:'100px',width:'60%'}}>
                 <p style={{marginBottom:'0px',fontWeight: 600,fontSize: '24px'}}>{aparmentSelected.title}</p>
 
                 <p style={{color:'#8CA5C6',fontWeight: 500, fontSize: '14px'}}>Publicado {aparmentSelected.createdAt}</p>
@@ -152,7 +152,7 @@ function AparmentDetail(props:any){
 
         <div className="container-c" style={{padding:'50px'}}>
             <p style={{fontWeight: 'bold',fontSize: '36px'}}>Propiedades que te pueden interesar</p>
-            <div style={{height:'250px',marginBottom:'100px',display: 'grid',gridTemplateColumns: 'repeat(4, 1fr)',gridColumnGap:'10px'}}>
+            <div className="grid-items details-grid-item" style={{marginBottom:'100px',display: 'grid',gridTemplateColumns: 'repeat(4, 1fr)',gridColumnGap:'30px', gridRowGap: '30px'}}>
               <RenderAparment aparment={categoryAndProducts[0]}/>
               <RenderAparment aparment={categoryAndProducts[1]}/>
               <RenderAparment aparment={categoryAndProducts[2]}/>

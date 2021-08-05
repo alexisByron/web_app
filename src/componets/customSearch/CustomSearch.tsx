@@ -28,8 +28,8 @@ function CustomSearch(){
     }
 
     return (
-        <div className="justify-center" style={styles.customContainer}>
-            <div style={styles.customsColum}>
+        <div className="justify-center custom-search" style={styles.customContainer}>
+            <div className="comunas-col" style={styles.customsColum}>
                 <InlineIcon icon={location} style={styles.icon}/>
                 <select name="comunas" id="comunas" className="select-search" style={{background: 'url("'+arrowSelect+'") no-repeat 98%', width:'80%'}} onChange={(e)=>setComunaBuscada(e.target.value)} value={comunaBuscada}>
                     <option value="">Buscar comuna...</option>
@@ -39,12 +39,16 @@ function CustomSearch(){
                     <option value="Quilicura">Quilicura</option>
                 </select>
             </div>
-            <div style={styles.customsColum}>
+            <div className="rooms-col" style={styles.customsColum}>
                 <div style={styles.customRow}>
-                    <div onClick={()=>setShowCollapseRooms(!showCollapseRooms)} style={styles.customCollapsableActivator}>
-                        <h6  style={{alignSelf:'center'}}>
-                            <InlineIcon icon={bed} style={styles.icon}/>
-                            Habitaciones
+                    <div className="left-item" onClick={()=>setShowCollapseRooms(!showCollapseRooms)} style={styles.customCollapsableActivator}>
+                        <h6 style={{alignSelf:'center'}}>
+                            <span className="icon-left">
+                                <InlineIcon icon={bed} style={styles.icon}/>
+                            </span>
+                            <span>
+                                Habitaciones
+                            </span>
                         </h6>
                         <img src={arrowSelect} alt=">" style={{height:'35px'}}/>
                     </div>
@@ -65,12 +69,14 @@ function CustomSearch(){
                     </div>
                 </Collapse>
             </div>
-            <div style={styles.bathroomColum}>
+            <div className="bathrooms-col" style={styles.bathroomColum}>
                 <div style={styles.customRow}>
-                    <div onClick={()=>setShowCollapseBathrooms(!showCollapseBathrooms)} style={styles.customCollapsableActivator}>
+                    <div className="left-item" onClick={()=>setShowCollapseBathrooms(!showCollapseBathrooms)} style={styles.customCollapsableActivator}>
                         <h6  style={{alignSelf:'center'}}>
-                            <InlineIcon icon={toilet} style={styles.icon}/>
-                            Baños
+                            <span className="icon-left">
+                                <InlineIcon icon={toilet} style={styles.icon}/>
+                            </span>
+                            <span>Baños</span>
                         </h6>
                         <img src={arrowSelect} alt=">" style={{height:'35px'}}/>
                     </div>
