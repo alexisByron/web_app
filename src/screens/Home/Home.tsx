@@ -7,37 +7,9 @@ import monoHome from "../../assests/img/monoHome.svg";
 function Home() {
   return (
     <React.Fragment>
-      <Header />
-      <div
-        className="row justify-content-center"
-        style={{ marginTop: "-35px", marginBottom: "20px" }}
-      >
-        <CustomSearch />
-      </div>
-      <div
-        style={{
-          display: "flex",
-          gridColumnGap: "10px",
-          justifyContent: "center",
-          width: "90%",
-        }}
-      >
-        <div style={{ margin: "auto" }}>
-          <h1
-            className="text-center"
-            style={{
-              width: "60%",
-              margin: "auto",
-              marginRight: "0px",
-              fontFamily: "Inter",
-              fontStyle: "normal",
-              fontWeight: 800,
-              fontSize: "48px",
-              lineHeight: "48px",
-            }}
-          >
-            Contrata SIN aval y realiza todo 100% online
-          </h1>
+       <Header />
+        <div className="row justify-content-center" style={{marginTop:'-35px',marginBottom:'20px'}}>
+          <CustomSearch />
         </div>
         <div style={{display:'flex',gridColumnGap: '10px',justifyContent:'center',width:'90%',}}>
           <div style={{margin:'auto'}}>
@@ -50,7 +22,6 @@ function Home() {
             <img src={monoHome} alt="persona" className="img-contrata" />
           </div>
         </div>
-      </div>
       <Steeps />
     </React.Fragment>
   );

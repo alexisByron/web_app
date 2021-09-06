@@ -55,9 +55,7 @@ function ContactForm() {
                 </div>
             </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default ContactForm;

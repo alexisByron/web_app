@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { styles } from "./styles";
 import { Icon } from '@iconify/react';
 import menuIcon from '@iconify/icons-mdi/menu';
-import CustomButton from '../CustomButton/CustomButton';
+import {CustomButton} from '../CustomButton/CustomButton';
 import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
