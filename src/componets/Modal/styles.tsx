@@ -1,5 +1,5 @@
 import CSS from "csstype";
-import {Colors} from "../../Theme";
+import { Colors } from "../../Theme";
 
 const container: CSS.Properties = {
   height: "300px",
@@ -8,13 +8,13 @@ const container: CSS.Properties = {
 };
 
 const content: CSS.Properties = {
-    height: "430px",
-    width: "60%",
-    margin: "auto",
-    boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
+  height: "430px",
+  width: "60%",
+  margin: "auto",
+  boxShadow: `-17px 17px 21px -5px ${Colors.background}`,
 };
 
 export const styles = {
   container,
-  content
+  content,
 };

@@ -1,43 +1,50 @@
 body {
   margin: 0;
-  font-family: 'Inter' !important;
-  color: '#18191F';
+  font-family: "Inter" !important;
+  color: "#18191F";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: red;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-p,h1,h2,h3,h4,h5,h6,Link{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+Link {
   font-family: Inter !important;
 }
 
-a:hover{
+a:hover {
   text-decoration: none !important;
 }
 
-ul{
-  margin-top: 0!important;
-  margin-bottom: 0!important;
+ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.full-container{
+.full-container {
   width: 100%;
 }
 
-.container-c{
+.container-c {
   width: 95%;
   max-width: 1280px;
   margin-left: auto;
@@ -61,7 +68,7 @@ li{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: #3268AE !important;
+  background-color: #3268ae !important;
   font-weight: 600 !important;
 }
 
@@ -69,13 +76,13 @@ li{
   background: rgba(50, 104, 174, 0.31) !important;
 }
 
-.select-filter{
-  border: 1px solid rgba(0,0,0, .15);
+.select-filter {
+  border: 1px solid rgba(0, 0, 0, 0.15);
   background: white;
   width: 280px;
   height: 35px;
   font-size: 11px;
-  color: rgba(0,0,0, .44);
+  color: rgba(0, 0, 0, 0.44);
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 8px;
@@ -85,13 +92,13 @@ li{
   -o-appearance: none;
 }
 
-.select-search{
+.select-search {
   border: 0px;
   background: white;
   width: 280px;
   height: 35px;
   font-size: 18px;
-  color: '#212529';
+  color: "#212529";
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 8px;
@@ -101,15 +108,15 @@ li{
   -o-appearance: none;
 }
 
-.ReactCollapse--collapse{
+.ReactCollapse--collapse {
   z-index: 0;
   position: absolute;
-  background-color: white;  
+  background-color: white;
   margin-top: -10px;
 }
 
-.ReactModal__Overlay{
-  z-index: 11;
+.ReactModal__Overlay {
+  z-index: 3;
 }
 
 .navbar{

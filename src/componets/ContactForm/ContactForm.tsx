@@ -1,12 +1,16 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import CustomButton from "../CustomButton/CustomButton";
-import {EThemeNames} from "../CustomButton/enums/ECustomButton";
-import {styles} from './styles';
+import {CustomButton} from "../CustomButton/CustomButton";
+import { EThemeNames } from "../CustomButton/enums/ECustomButton";
+import { styles } from "./styles";
 
-function ContactForm(){
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = (data: any) => console.log(data);
+function ContactForm() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data: any) => console.log(data);
 
     return (
         <div className="container-c">
@@ -51,7 +55,9 @@ function ContactForm(){
                 </div>
             </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default ContactForm;

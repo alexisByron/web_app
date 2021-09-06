@@ -1,32 +1,38 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { styles } from "./styles";
 import { Link } from "react-router-dom";
-import arrowSelect from '../../assests/img/arrow-select.svg';
-import {Collapse} from "react-collapse";
-import { InlineIcon } from '@iconify/react';
-import bed from '@iconify/icons-fa-solid/bed';
-import toilet from '@iconify/icons-fa-solid/toilet';
-import location from '@iconify/icons-fa-solid/location-arrow';
-import CustomButton from "../CustomButton/CustomButton";
-import {EThemeNames} from "../CustomButton/enums/ECustomButton";
+import arrowSelect from "../../assests/img/arrow-select.svg";
+import { Collapse } from "react-collapse";
+import { InlineIcon } from "@iconify/react";
+import bed from "@iconify/icons-fa-solid/bed";
+import toilet from "@iconify/icons-fa-solid/toilet";
+import location from "@iconify/icons-fa-solid/location-arrow";
+import { CustomButton } from "../CustomButton/CustomButton";
+import { EThemeNames } from "../CustomButton/enums/ECustomButton";
 
-function CustomSearch(){
-    const [showCollapseRooms,setShowCollapseRooms] = useState(false);
-    const [showCollapseBathrooms,setShowCollapseBathrooms] = useState(false);
-    const [comunaBuscada,setComunaBuscada] = useState('');
-    const [cantRooms,setCantRooms] = useState('1+');
-    const [cantBathRooms,setCantBathRooms] = useState('1+');
+function CustomSearch() {
+  const [showCollapseRooms, setShowCollapseRooms] = useState(false);
+  const [showCollapseBathrooms, setShowCollapseBathrooms] = useState(false);
+  const [comunaBuscada, setComunaBuscada] = useState("");
+  const [cantRooms, setCantRooms] = useState("1+");
+  const [cantBathRooms, setCantBathRooms] = useState("1+");
 
-    const changeQuantity = (type: string, num: string) => {
-        const cantidadActual = type === 'rooms' ? cantRooms : cantBathRooms
-        if(cantidadActual !== num){ 
-            (type === 'rooms') ? setCantRooms(num) : setCantBathRooms(num)
-        } else {
-            (type === 'rooms') ? setCantRooms('1+') : setCantBathRooms('1+')
-        }
-        setShowCollapseRooms(false)
+  const changeQuantity = (type: string, num: string) => {
+    const cantidadActual = type === "rooms" ? cantRooms : cantBathRooms;
+    if (cantidadActual !== num) {
+      type === "rooms" ? setCantRooms(num) : setCantBathRooms(num);
+    } else {
+      type === "rooms" ? setCantRooms("1+") : setCantBathRooms("1+");
     }
+    setShowCollapseRooms(false);
+  };
 
+  const changeQuantityStyle = (type: string, num: string) => {
+    const cantidadActual = type === "rooms" ? cantRooms : cantBathRooms;
+    return cantidadActual !== num
+      ? styles.itemQuantity
+      : styles.itemQuantityActive;
+  };
     return (
         <div className="justify-center custom-search" style={styles.customContainer}>
             <div className="comunas-col" style={styles.customsColum}>
@@ -61,11 +67,26 @@ function CustomSearch(){
                 </div>
                 <Collapse isOpened={showCollapseRooms}>
                     <div className="quantity" style={styles.ContainerNumbers}>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('rooms', '1')} style={cantRooms=="1"?styles.itemQuantityActive:styles.itemQuantity}>1</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('rooms', '2')} style={cantRooms=="2"?styles.itemQuantityActive:styles.itemQuantity}>2</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('rooms', '3')} style={cantRooms=="3"?styles.itemQuantityActive:styles.itemQuantity}>3</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('rooms', '4')} style={cantRooms=="4"?styles.itemQuantityActive:styles.itemQuantity}>4</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('rooms', '5+')} style={cantRooms=="5+"?styles.itemQuantityActive:styles.itemQuantity}>5+</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '1')} 
+                          style={changeQuantityStyle('rooms', '1')}>1</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '2')} 
+                          style={changeQuantityStyle('rooms', '2')}>2</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '3')} 
+                          style={changeQuantityStyle('rooms', '3')}>3</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '4')} 
+                          style={changeQuantityStyle('rooms', '4')}>4</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '5+')} 
+                          style={changeQuantityStyle('rooms', '5+')}>5+</a>
                     </div>
                 </Collapse>
             </div>
@@ -89,11 +110,26 @@ function CustomSearch(){
                 </div>
                 <Collapse isOpened={showCollapseBathrooms}>
                     <div className="quantity" style={styles.ContainerNumbers}>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('bathrooms', '1')} style={cantBathRooms=="1"?styles.itemQuantityActive:styles.itemQuantity}>1</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('bathrooms', '2')} style={cantBathRooms=="2"?styles.itemQuantityActive:styles.itemQuantity}>2</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('bathrooms', '3')} style={cantBathRooms=="3"?styles.itemQuantityActive:styles.itemQuantity}>3</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('bathrooms', '4')} style={cantBathRooms=="4"?styles.itemQuantityActive:styles.itemQuantity}>4</a>
-                        <a href="#" className="item-quantity" onClick={() => changeQuantity('bathrooms', '5+')} style={cantBathRooms=="5+"?styles.itemQuantityActive:styles.itemQuantity}>5+</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '1')} 
+                          style={changeQuantityStyle('bathrooms', '1')}>1</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '2')} 
+                          style={changeQuantityStyle('bathrooms', '2')}>2</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '3')} 
+                          style={changeQuantityStyle('bathrooms', '3')}>3</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '4')} 
+                          style={changeQuantityStyle('bathrooms', '4')}>4</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '5+')} 
+                          style={changeQuantityStyle('bathrooms', '5+')}>5+</a>
                     </div>
                 </Collapse>
             </div>
