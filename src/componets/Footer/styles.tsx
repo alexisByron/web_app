@@ -1,25 +1,25 @@
-import CSS from 'csstype';
+import CSS from "csstype";
+import { Colors } from "../../Theme";
 
 const footer: CSS.Properties = {
-        backgroundColor: '#FFAACC',
-        fontFamily: 'Comic Sans MS',
-        color: '#76106A',
-        textAlign: "center",
-        padding: "30px 30px",
-        position: 'relative',
-        height: '250px',
+  backgroundColor: Colors.black,
+  color: Colors.text,
+  textAlign: "center",
+  position: "relative",
+  height: "50px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
 };
 
-const footerContainer :CSS.Properties={
+const footerContainer: CSS.Properties = {};
 
-};
-
-const ul: CSS.Properties={
-    listStyleType: 'none'
+const ul: CSS.Properties = {
+  listStyleType: "none",
 };
 
 export const styles = {
-    footer,
-    ul,
-    footerContainer
+  footer,
+  ul,
+  footerContainer,
 };
