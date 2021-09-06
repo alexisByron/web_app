@@ -4,11 +4,11 @@ import { styles } from "./styles";
 function Header() {
   return (
     <div
-      className="full-container d-flex align-items-center align-content-center"
+      className="content-slide full-container d-flex align-items-center align-content-center"
       style={styles.header}
     >
       <div className="container-c">
-        <h1 style={styles.headerText}>
+        <h1 className="slide-home" style={styles.headerText}>
           Arrienda fácil, rápido y seguro en todo Santiago.
         </h1>
       </div>

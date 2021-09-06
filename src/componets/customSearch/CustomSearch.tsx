@@ -33,161 +33,112 @@ function CustomSearch() {
       ? styles.itemQuantity
       : styles.itemQuantityActive;
   };
-
-  return (
-    <div className="justify-center" style={styles.customContainer}>
-      <div style={styles.customsColum}>
-        <InlineIcon icon={location} style={styles.icon} />
-        <select
-          name="comunas"
-          id="comunas"
-          className="select-search"
-          style={{
-            background: 'url("' + arrowSelect + '") no-repeat 98%',
-            width: "80%",
-          }}
-          onChange={(e) => setComunaBuscada(e.target.value)}
-          value={comunaBuscada}
-        >
-          <option value="">Buscar comuna...</option>
-          <option value="Las Condes">Las Condes</option>
-          <option value="Providencia">Providencia</option>
-          <option value="Macul">Macul</option>
-          <option value="Quilicura">Quilicura</option>
-        </select>
-      </div>
-      <div style={styles.customsColum}>
-        <div style={styles.customRow}>
-          <div
-            onClick={() => setShowCollapseRooms(!showCollapseRooms)}
-            style={styles.customCollapsableActivator}
-          >
-            <h6 style={{ alignSelf: "center" }}>
-              <InlineIcon icon={bed} style={styles.icon} />
-              Habitaciones
-            </h6>
-            <img src={arrowSelect} alt=">" style={{ height: "35px" }} />
-          </div>
-          <p style={styles.itemQuantityActive}>{cantRooms}</p>
-        </div>
-        <Collapse isOpened={showCollapseRooms}>
-          <div className="quantity" style={styles.ContainerNumbers}>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("rooms", "1")}
-              style={changeQuantityStyle("rooms", "1")}
-            >
-              1
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("rooms", "2")}
-              style={changeQuantityStyle("rooms", "2")}
-            >
-              2
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("rooms", "3")}
-              style={changeQuantityStyle("rooms", "3")}
-            >
-              3
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("rooms", "4")}
-              style={changeQuantityStyle("rooms", "4")}
-            >
-              4
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("rooms", "5+")}
-              style={changeQuantityStyle("rooms", "5+")}
-            >
-              5+
-            </a>
-          </div>
-        </Collapse>
-      </div>
-      <div style={styles.bathroomColum}>
-        <div style={styles.customRow}>
-          <div
-            onClick={() => setShowCollapseBathrooms(!showCollapseBathrooms)}
-            style={styles.customCollapsableActivator}
-          >
-            <h6 style={{ alignSelf: "center" }}>
-              <InlineIcon icon={toilet} style={styles.icon} />
-              Baños
-            </h6>
-            <img src={arrowSelect} alt=">" style={{ height: "35px" }} />
-          </div>
-          <p style={styles.itemQuantityActive}>{cantBathRooms}</p>
-        </div>
-        <Collapse isOpened={showCollapseBathrooms}>
-          <div className="quantity" style={styles.ContainerNumbers}>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("bathrooms", "1")}
-              style={changeQuantityStyle("bathrooms", "1")}
-            >
-              1
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("bathrooms", "2")}
-              style={changeQuantityStyle("bathrooms", "2")}
-            >
-              2
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("bathrooms", "3")}
-              style={changeQuantityStyle("bathrooms", "3")}
-            >
-              3
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("bathrooms", "4")}
-              style={changeQuantityStyle("bathrooms", "4")}
-            >
-              4
-            </a>
-            <a
-              href="#"
-              className="item-quantity"
-              onClick={() => changeQuantity("bathrooms", "5+")}
-              style={changeQuantityStyle("bathrooms", "5+")}
-            >
-              5+
-            </a>
-          </div>
-        </Collapse>
-      </div>
-      <div style={styles.searchButtonColum}>
-        <Link
-          to={`/ListAparment/${
-            comunaBuscada ? comunaBuscada : "all"
-          }/${cantRooms}/${cantBathRooms}`}
-        >
-          <CustomButton
-            text="Buscar"
-            onClick={() => null}
-            theme={EThemeNames.Primary}
-          />
-        </Link>
-      </div>
-    </div>
-  );
+    return (
+        <div className="justify-center custom-search" style={styles.customContainer}>
+            <div className="comunas-col" style={styles.customsColum}>
+                <InlineIcon icon={location} style={styles.icon}/>
+                <select name="comunas" id="comunas" className="select-search" style={{background: 'url("'+arrowSelect+'") no-repeat 98%', width:'80%'}} onChange={(e)=>setComunaBuscada(e.target.value)} value={comunaBuscada}>
+                    <option value="">Buscar comuna...</option>
+                    <option value="Las Condes">Las Condes</option>
+                    <option value="Providencia">Providencia</option>
+                    <option value="Macul">Macul</option>
+                    <option value="Quilicura">Quilicura</option>
+                </select>
+            </div>
+            <div className="rooms-col" style={styles.customsColum}>
+                <div style={styles.customRow}>
+                    <div className="left-item" onClick={()=>setShowCollapseRooms(!showCollapseRooms)} style={styles.customCollapsableActivator}>
+                        <h6 style={{alignSelf:'center'}}>
+                            <span className="icon-left">
+                                <InlineIcon icon={bed} style={styles.icon}/>
+                            </span>
+                            <span>
+                                Habitaciones
+                            </span>
+                        </h6>
+                        <img src={arrowSelect} alt=">" style={{height:'35px'}}/>
+                    </div>
+                    {cantRooms?
+                     <p style={styles.itemQuantityActive}>
+                     {cantRooms}
+                     </p>
+                     :<></>
+                    }
+                </div>
+                <Collapse isOpened={showCollapseRooms}>
+                    <div className="quantity" style={styles.ContainerNumbers}>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '1')} 
+                          style={changeQuantityStyle('rooms', '1')}>1</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '2')} 
+                          style={changeQuantityStyle('rooms', '2')}>2</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '3')} 
+                          style={changeQuantityStyle('rooms', '3')}>3</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '4')} 
+                          style={changeQuantityStyle('rooms', '4')}>4</a>
+                        <a href="#" 
+                          className="item-quantity"
+                          onClick={() => changeQuantity('rooms', '5+')} 
+                          style={changeQuantityStyle('rooms', '5+')}>5+</a>
+                    </div>
+                </Collapse>
+            </div>
+            <div className="bathrooms-col" style={styles.bathroomColum}>
+                <div style={styles.customRow}>
+                    <div className="left-item" onClick={()=>setShowCollapseBathrooms(!showCollapseBathrooms)} style={styles.customCollapsableActivator}>
+                        <h6  style={{alignSelf:'center'}}>
+                            <span className="icon-left">
+                                <InlineIcon icon={toilet} style={styles.icon}/>
+                            </span>
+                            <span>Baños</span>
+                        </h6>
+                        <img src={arrowSelect} alt=">" style={{height:'35px'}}/>
+                    </div>
+                    {cantBathRooms?
+                     <p style={styles.itemQuantityActive}>
+                     {cantBathRooms}
+                     </p>
+                     :<></>
+                    }
+                </div>
+                <Collapse isOpened={showCollapseBathrooms}>
+                    <div className="quantity" style={styles.ContainerNumbers}>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '1')} 
+                          style={changeQuantityStyle('bathrooms', '1')}>1</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '2')} 
+                          style={changeQuantityStyle('bathrooms', '2')}>2</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '3')} 
+                          style={changeQuantityStyle('bathrooms', '3')}>3</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '4')} 
+                          style={changeQuantityStyle('bathrooms', '4')}>4</a>
+                        <a href="#" 
+                          className="item-quantity" 
+                          onClick={() => changeQuantity('bathrooms', '5+')} 
+                          style={changeQuantityStyle('bathrooms', '5+')}>5+</a>
+                    </div>
+                </Collapse>
+            </div>
+            <div style={styles.searchButtonColum}>
+                <Link to={`/ListAparment/${comunaBuscada?comunaBuscada:'all'}/${cantRooms}/${cantBathRooms}`}>
+                    <CustomButton text="Buscar" onClick={()=>null} theme={EThemeNames.Primary} />
+                </Link>
+            </div>
+         </div>
+    );
 }
 export default CustomSearch;

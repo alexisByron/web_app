@@ -24,17 +24,9 @@ export const Product = ({
   };
 
   return (
-    <div style={styles.Product}>
-      <img
-        src={imagen}
-        className="card-img-top"
-        alt="..."
-        style={styles.ProductImg}
-        onClick={() => {
-          openModal();
-        }}
-      />
-      <div className="text-center" style={styles.bodyItem}>
+    <div className="product-item" style={styles.Product}>
+      <div className="product-img" style={{backgroundImage: `url(${imagen})`}}></div>
+      <div className="text-center product-info" style={styles.bodyItem}>
         <div
           className="d-flex justify-content-between"
           style={styles.contentIconsProduct}

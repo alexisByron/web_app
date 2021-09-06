@@ -63,7 +63,7 @@ export const ListAparments = ({
   };
 
   return (
-    <React.Fragment>
+    <>
       <div className="container-c">
         <div className="btn-filter mt-4" style={{ width: "100px" }}>
           <CustomButton
@@ -88,7 +88,7 @@ export const ListAparments = ({
           submit={FilterAction}
         />
       </CustomModal>
-    </React.Fragment>
+    </>
   );
 };
 

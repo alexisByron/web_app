@@ -75,6 +75,7 @@ export const AparmentDetail = ({
       </CustomModal>
       <div style={{ width: "95%", maxWidth: "1000px", margin: "auto" }}>
         <div
+          className="grid-gallery"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
@@ -83,7 +84,7 @@ export const AparmentDetail = ({
           }}
         >
           <div
-            className="d-flex align-items-center justify-content-center"
+            className="item-gallery-details d-flex align-items-center justify-content-center"
             onClick={() => setIsOpenGallery(true)}
             style={{
               cursor: "pointer",
@@ -117,7 +118,7 @@ export const AparmentDetail = ({
           </div>
 
           <div
-            className="d-flex align-items-center justify-content-center"
+            className="item-gallery-details d-flex align-items-center justify-content-center"
             onClick={() => setIsOpenVideo(true)}
             style={{
               cursor: "pointer",
@@ -151,7 +152,7 @@ export const AparmentDetail = ({
           </div>
 
           <div
-            className="d-flex align-items-center justify-content-center"
+            className="item-gallery-details d-flex align-items-center justify-content-center"
             onClick={() => setIsOpenMap(true)}
             style={{
               cursor: "pointer",
@@ -186,14 +187,14 @@ export const AparmentDetail = ({
         </div>
 
         <div
-          className="mt-4"
+          className="mt-4 grid-details"
           style={{
             display: "grid",
             gridTemplateColumns: "66% 32%",
             gridColumnGap: "20px",
           }}
         >
-          <div style={{ marginBottom: "100px", width: "60%" }}>
+          <div className="left-col" style={{ marginBottom: "100px", width: "60%" }}>
             <p
               style={{ marginBottom: "0px", fontWeight: 600, fontSize: "24px" }}
             >
@@ -310,6 +311,7 @@ export const AparmentDetail = ({
           Propiedades que te pueden interesar
         </p>
         <div
+          className="grid-items details-grid-item"
           style={{
             height: "250px",
             marginBottom: "100px",

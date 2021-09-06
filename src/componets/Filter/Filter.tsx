@@ -49,7 +49,7 @@ export const Filter = ({
   
 
   return (
-    <div style={{ width: "450px" }}>
+    <div className="content-filter" style={{ width: "450px" }}>
       <div
         className="head-filter mb-4"
         style={{

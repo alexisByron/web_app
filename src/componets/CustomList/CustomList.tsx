@@ -26,7 +26,7 @@ export const CustomList = ({ list }: customListProps) => {
       itemsPerPage={12}
       renderList={(list) => (
         <div
-          className="container-c"
+          className="container-c grid-items"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(4, calc(25% - 22.5px))",

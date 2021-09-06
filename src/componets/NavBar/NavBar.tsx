@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { styles } from "./styles";
-import { CustomButton } from "../CustomButton/CustomButton";
-import { EThemeNames } from "../CustomButton/enums/ECustomButton";
+import { Icon } from '@iconify/react';
+import menuIcon from '@iconify/icons-mdi/menu';
+import {CustomButton} from '../CustomButton/CustomButton';
+import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import { CustomModal } from "../Modal/CustomModal";
@@ -20,44 +22,47 @@ function NavBar() {
 
   return (
     <div className="full-container" style={styles.navContainer}>
-      <div className="container-c d-flex align-content-between">
-        <div className="col-6">
+      <div className="container-c navbar">
+        <div>
           <Link to="/Home">Home</Link>
         </div>
-        <ul className="col-6 d-flex align-items-center justify-content-between">
-          <li>
-            <Link
-              to="/ListAparment/all/1+/1+"
-              style={{ fontSize: "14px", fontWeight: 500, color: "#18191F" }}
-            >
-              Propiedades
-            </Link>
-          </li>
-          <li>
-            <LinkScroll
-              to="contactForm"
-              spy={true}
-              smooth={true}
-              style={{ fontSize: "14px", fontWeight: 500, cursor: "pointer" }}
-            >
-              Contacto
-            </LinkScroll>
-          </li>
-          <li style={{ width: "133px" }}>
-            <CustomButton
-              text="Postulaciones"
-              theme={EThemeNames.Secondary}
-              onClick={() => setModalPostulacionIsOpen(true)}
-            />
-          </li>
-          <li style={{ width: "188px" }}>
-            <CustomButton
-              text="Acceso Residentes"
-              theme={EThemeNames.Primary}
-              onClick={() => setIsOpen(true)}
-            />
-          </li>
-        </ul>
+        <div>
+          <Icon icon={menuIcon} className="btn-nav-xs" style={{fontSize: '24px'}} />
+          <ul className="d-flex align-items-center justify-content-between">
+            <li>
+              <Link
+                to="/ListAparment/all/1+/1+"
+                style={{ fontSize: "14px", fontWeight: 500, color: "#18191F" }}
+              >
+                Propiedades
+              </Link>
+            </li>
+            <li>
+              <LinkScroll
+                to="contactForm"
+                spy={true}
+                smooth={true}
+                style={{ fontSize: "14px", fontWeight: 500, cursor: "pointer" }}
+              >
+                Contacto
+              </LinkScroll>
+            </li>
+            <li className="btn-navbar" style={{ width: "133px" }}>
+              <CustomButton
+                text="Postulaciones"
+                theme={EThemeNames.Secondary}
+                onClick={() => setModalPostulacionIsOpen(true)}
+              />
+            </li>
+            <li className="btn-navbar" style={{ width: "188px" }}>
+              <CustomButton
+                text="Acceso Residentes"
+                theme={EThemeNames.Primary}
+                onClick={() => setIsOpen(true)}
+              />
+            </li>
+          </ul>
+        </div>
       </div>
       <CustomModal isOpen={modalIsOpen} setIsOpen={setIsOpen}>
         <div style={{ width: "230px" }}>
