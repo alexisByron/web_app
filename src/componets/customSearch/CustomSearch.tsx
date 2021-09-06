@@ -37,7 +37,7 @@ function CustomSearch() {
         <div className="justify-center custom-search" style={styles.customContainer}>
             <div className="comunas-col" style={styles.customsColum}>
                 <InlineIcon icon={location} style={styles.icon}/>
-                <select name="comunas" id="comunas" className="select-search" style={{background: 'url("'+arrowSelect+'") no-repeat 98%', width:'80%'}} onChange={(e)=>setComunaBuscada(e.target.value)} value={comunaBuscada}>
+                <select name="comunas" id="comunas" className="select-search" style={{background: 'url("'+arrowSelect+'") no-repeat 98%', width:'90%', fontSize: '1rem', fontWeight: 500}} onChange={(e)=>setComunaBuscada(e.target.value)} value={comunaBuscada}>
                     <option value="">Buscar comuna...</option>
                     <option value="Las Condes">Las Condes</option>
                     <option value="Providencia">Providencia</option>
@@ -48,22 +48,17 @@ function CustomSearch() {
             <div className="rooms-col" style={styles.customsColum}>
                 <div style={styles.customRow}>
                     <div className="left-item" onClick={()=>setShowCollapseRooms(!showCollapseRooms)} style={styles.customCollapsableActivator}>
-                        <h6 style={{alignSelf:'center'}}>
+                        <h6 style={{alignSelf:'center', marginBottom: '0px'}}>
                             <span className="icon-left">
                                 <InlineIcon icon={bed} style={styles.icon}/>
                             </span>
                             <span>
                                 Habitaciones
+                                {cantRooms !== '1+' && `: ${cantRooms}`}
                             </span>
                         </h6>
-                        <img src={arrowSelect} alt=">" style={{height:'35px'}}/>
+                        <img src={arrowSelect} alt=">" style={{height:'24px'}}/>
                     </div>
-                    {cantRooms?
-                     <p style={styles.itemQuantityActive}>
-                     {cantRooms}
-                     </p>
-                     :<></>
-                    }
                 </div>
                 <Collapse isOpened={showCollapseRooms}>
                     <div className="quantity" style={styles.ContainerNumbers}>
@@ -93,20 +88,16 @@ function CustomSearch() {
             <div className="bathrooms-col" style={styles.bathroomColum}>
                 <div style={styles.customRow}>
                     <div className="left-item" onClick={()=>setShowCollapseBathrooms(!showCollapseBathrooms)} style={styles.customCollapsableActivator}>
-                        <h6  style={{alignSelf:'center'}}>
+                        <h6  style={{alignSelf:'center', marginBottom: '0px'}}>
                             <span className="icon-left">
                                 <InlineIcon icon={toilet} style={styles.icon}/>
                             </span>
-                            <span>Baños</span>
+                            <span>Baños
+                              {cantBathRooms !== '1+' && `: ${cantBathRooms}`}
+                            </span>
                         </h6>
-                        <img src={arrowSelect} alt=">" style={{height:'35px'}}/>
+                        <img src={arrowSelect} alt=">" style={{height:'24px'}}/>
                     </div>
-                    {cantBathRooms?
-                     <p style={styles.itemQuantityActive}>
-                     {cantBathRooms}
-                     </p>
-                     :<></>
-                    }
                 </div>
                 <Collapse isOpened={showCollapseBathrooms}>
                     <div className="quantity" style={styles.ContainerNumbers}>

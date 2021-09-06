@@ -7,6 +7,9 @@ const footer: CSS.Properties = {
   textAlign: "center",
   position: "relative",
   height: "50px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
 };
 
 const footerContainer: CSS.Properties = {};

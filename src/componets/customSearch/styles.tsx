@@ -3,34 +3,28 @@ import { Colors } from "../../Theme";
 
 const customContainer: CSS.Properties = {
   display: "grid",
-  gridTemplateColumns: "repeat(4, 1fr)",
-  gridColumnGap: "0px",
+  gridColumnGap: "15px",
   backgroundColor: "white",
   boxShadow: "-17px 17px 21px -5px #BABABA",
   borderRadius: "8px",
   height: "76px",
   border: "1px solid rgba(41, 41, 42, 0.09)",
   maxWidth: "800px",
+  width: "95%",
+  alignItems: "center",
+  paddingRight: "15px",
+  paddingLeft: "15px"
 };
 
 const customsColum: CSS.Properties = {
-  width: "250px",
-  borderRight: "2px solid rgba(0, 0, 0, 0.13)",
-  marginBottom: "10px",
-  marginTop: "20px",
-  marginLeft: "5px",
-  marginRight: "5px",
-  height: "30px",
+  borderRight: "1px solid rgba(0, 0, 0, 0.13)",
+  paddingRight: '10px'
 };
 
 const bathroomColum: CSS.Properties = {
-  width: "150px",
-  borderRight: "2px solid rgba(0, 0, 0, 0.13)",
-  marginBottom: "10px",
-  marginTop: "20px",
-  marginLeft: "5px",
-  marginRight: "5px",
-  height: "30px",
+  width: "100%",
+  borderRight: "1px solid rgba(0, 0, 0, 0.13)",
+  paddingRight: '10px'
 };
 
 const searchButtonColum: CSS.Properties = {
@@ -54,7 +48,7 @@ const customRow: CSS.Properties = {
 };
 
 const customCollapsableActivator: CSS.Properties = {
-  width: "80%",
+  width: "100%",
   display: "flex",
   justifyContent: "inherit",
 };

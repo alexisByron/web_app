@@ -8,6 +8,7 @@ import {EThemeNames} from '../CustomButton/enums/ECustomButton'
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import { CustomModal } from "../Modal/CustomModal";
+import logo from "../../assests/img/logo.png"
 
 function NavBar() {
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -20,15 +21,21 @@ function NavBar() {
 
   const onSubmit = (data: any) => console.log(data);
 
+  const [navIsOpen, setNavIsOpen] = useState(false);
+
   return (
     <div className="full-container" style={styles.navContainer}>
       <div className="container-c navbar">
         <div>
-          <Link to="/Home">Home</Link>
+          <Link to="/Home">
+            <img src={logo} alt="Rent Apartments" />
+          </Link>
         </div>
         <div>
-          <Icon icon={menuIcon} className="btn-nav-xs" style={{fontSize: '24px'}} />
-          <ul className="d-flex align-items-center justify-content-between">
+          <div onClick={()=>{setNavIsOpen(!navIsOpen)}}>
+            <Icon icon={menuIcon} className="btn-nav-xs" style={{fontSize: '24px'}} />
+          </div>
+          <ul className={`align-items-center justify-content-between ${navIsOpen? 'open-nav':'close-nav'}`}>
             <li>
               <Link
                 to="/ListAparment/all/1+/1+"

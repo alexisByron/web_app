@@ -23,7 +23,9 @@ h3,
 h4,
 h5,
 h6,
-Link {
+Link,
+label,
+select {
   font-family: Inter !important;
 }
 
@@ -49,6 +51,10 @@ li {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.custom-search{
+  grid-template-columns: 33% 27% 20% 14%;
 }
 
 .pagination {
@@ -112,7 +118,7 @@ li {
   z-index: 0;
   position: absolute;
   background-color: white;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 .ReactModal__Overlay {
@@ -122,10 +128,12 @@ li {
 .navbar{
   display: flex;
   align-content: space-between;
+  padding: 0!important;
 }
 
 .navbar ul{
   width: 580px;
+  display: flex;
 }
 
 .btn-nav-xs{
@@ -141,7 +149,7 @@ li {
 }
 
 .open-nav{
-  right: -5%!important;
+  display: flex!important;
 }
 
 @media only screen and (max-width: 1050px){
@@ -229,7 +237,7 @@ li {
 
   .custom-search .rooms-col .left-item,
   .custom-search .bathrooms-col .left-item{
-    width: 90%!important;
+    width: 98%!important;
   }
 
   .custom-search .rooms-col .left-item .icon-left,
@@ -255,22 +263,16 @@ li {
   }
 }
 
-@media only screen and (max-width: 780px) {
-  .grid-details{
-    grid-template-columns: 100%!important;
-  }
-  .grid-details .left-col{
-    margin-bottom: 30px!important;
-  }
+@media only screen and (max-width: 830px){
   .btn-nav-xs{
     display: block;
   }
 
   .navbar ul{
-    display: flex!important;
     width: 80%;
+    display: none;
     position: absolute;
-    right: -100%;
+    right: -4.5%;
     top: 50px;
     flex-direction: column;
     z-index: 10;
@@ -287,6 +289,15 @@ li {
   .btn-navbar{
     width: 100%!important;
     padding: 5px!important;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .grid-details{
+    grid-template-columns: 100%!important;
+  }
+  .grid-details .left-col{
+    margin-bottom: 30px!important;
   }
 
   .steeps{
@@ -375,7 +386,6 @@ li {
   }
 
   .navbar ul{
-    display: flex!important;
     width: 95%!important;
   }
 }
