@@ -256,7 +256,7 @@ export const AparmentDetail = ({
                 {aparmentSelected.other.map((element: any, id) => {
                   return (
                     <li style={{ listStyle: "circle" }} key={id}>
-                      {element}
+                      {`${element.charAt(0).toUpperCase()}${element.slice(1)}`}
                     </li>
                   );
                 })}

@@ -26,9 +26,9 @@ export const categoryAndProducts = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
     other: [
-      "cosina linda",
-      "caño en living",
-      "aplio pario",
+      "cocina linda",
+      "living amplio",
+      "aplio patio",
       "vecinos wena onda",
     ],
     createdAt: "20/07/2021",
@@ -53,7 +53,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -76,7 +76,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -99,7 +99,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -122,7 +122,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -145,7 +145,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -168,7 +168,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -191,7 +191,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -214,7 +214,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -237,7 +237,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -260,7 +260,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -283,7 +283,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -306,7 +306,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -329,7 +329,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -352,7 +352,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -375,7 +375,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -398,7 +398,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -421,7 +421,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -444,7 +444,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -467,7 +467,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -490,7 +490,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -513,7 +513,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -536,7 +536,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -559,7 +559,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -582,7 +582,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -605,7 +605,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -628,7 +628,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -651,7 +651,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -674,7 +674,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -697,7 +697,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -720,7 +720,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -743,7 +743,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -766,7 +766,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -789,7 +789,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -812,7 +812,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -835,7 +835,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -858,7 +858,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -881,7 +881,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -904,7 +904,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -927,7 +927,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
 
@@ -951,7 +951,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -974,7 +974,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -997,7 +997,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1020,7 +1020,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1043,7 +1043,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1066,7 +1066,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1089,7 +1089,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1112,7 +1112,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1135,7 +1135,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1158,7 +1158,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1181,7 +1181,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1204,7 +1204,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1227,7 +1227,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1250,7 +1250,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1273,7 +1273,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1296,7 +1296,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1319,7 +1319,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1342,7 +1342,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1365,7 +1365,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
   {
@@ -1388,7 +1388,7 @@ export const categoryAndProducts = [
     map: { lat: "", long: "" },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing egestas integer pharetra vivamus at orci. Pellentesque leo sit eget pulvinar at ac amet viverra. Pulvinar feugiat proin massa dictumst in nisl tempor nulla. Risus a nunc, aliquet nibh tristique vitae, cursus rhoncus. Amet auctor nisi quam vitae lectus. Malesuada proin eu, faucibus vulputate a in accumsan mattis diam. Sed nunc arcu et nec pellentesque cursus. Ac neque nibh mattis vel, in massa praesent et, eu. Id donec nunc leo eu sed sit ac sollicitudin.",
-    other: ["cosina linda", "caño en living"],
+    other: ["cocina linda", "living amplio"],
     createdAt: "20/07/2021",
   },
 ];
