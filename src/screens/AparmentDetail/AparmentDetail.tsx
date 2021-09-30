@@ -194,7 +194,10 @@ export const AparmentDetail = ({
             gridColumnGap: "20px",
           }}
         >
-          <div className="left-col" style={{ marginBottom: "100px", width: "60%" }}>
+          <div
+            className="left-col"
+            style={{ marginBottom: "100px", width: "60%" }}
+          >
             <p
               style={{ marginBottom: "0px", fontWeight: 600, fontSize: "24px" }}
             >
@@ -306,14 +309,13 @@ export const AparmentDetail = ({
         </div>
       </div>
 
-      <div className="container-c" style={{ padding: "50px" }}>
-        <p style={{ fontWeight: "bold", fontSize: "36px" }}>
+      <div className="container-c">
+        <p style={{ fontWeight: "bold", fontSize: "24px" }}>
           Propiedades que te pueden interesar
         </p>
         <div
           className="grid-items details-grid-item"
           style={{
-            height: "250px",
             marginBottom: "100px",
             display: "grid",
             gridTemplateColumns: "repeat(4, 1fr)",

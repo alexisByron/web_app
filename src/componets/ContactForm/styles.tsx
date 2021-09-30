@@ -9,7 +9,7 @@ const containerForm: CSS.Properties = {
 const title: CSS.Properties = {
   fontStyle: "normal",
   fontWeight: "bold",
-  fontSize: "48px",
+  fontSize: "24px",
   lineHeight: "48px",
   marginBottom: "20px",
   textAlign: "center",
