@@ -10,9 +10,8 @@ Tecnologías utilizadas
 
 # <a href="https://alexisbyron.github.io/web_app/">Live Demo</a>
 
-# Informacion para levantar proyecto
+# Información para levantar proyecto
 
-## node version  v15.9.0
-
+## Node version  v15.9.0
 ## Comandos:
   - npm start: Inicia el proyecto
