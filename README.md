@@ -10,7 +10,7 @@ Tecnologías utilizadas
 ## Comandos:
 - npm start: Inicia el proyecto
 
-## <a href="https://alexisbyron.github.io/web_app/">Live Demo</a>
+## <a href="https://alexisbyron.github.io/Home">Live Demo</a>
 
 ## Demo  
 ![Grabación de pantalla 2022-09-25 a la(s) 18 54 05](https://user-images.githubusercontent.com/72414242/192167333-cdca5c41-cc03-45ce-811c-2f42927c098a.gif)
