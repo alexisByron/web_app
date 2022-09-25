@@ -19,6 +19,14 @@ function App() {
           <Route exact path="/">
             <Redirect to="/Home" />
           </Route>
+          {
+            /**
+             * al agregar github-pages agrego como pagina de inicio el nombre del proyecto por esto realizo una redireccion
+             */
+          }
+          <Route exact path="/web_app">
+            <Redirect to="/Home" />
+          </Route>
           <Route
             exact
             path="/ListAparment/:comuna/:rooms/:bathrooms"
