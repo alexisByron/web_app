@@ -8,7 +8,9 @@ Tecnologías utilizadas
 
 ## Node version  v15.9.0
 ## Comandos:
-- npm start: Inicia el proyecto
+<pre><code>npm install
+npm start
+</code></pre>
 
 ## <a href="https://alexisbyron.github.io/web_app/">Live Demo</a>
 
