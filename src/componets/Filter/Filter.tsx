@@ -23,7 +23,7 @@ export const Filter = ({
   };
 
   const ComunasFilteredComponent = () => {
-    if (comunas.toLowerCase() != "all"){
+    if (comunas != "all"){
       return <ComunasFiltered comunas={comunasArray} setComuna={setComuna} />
     }else{
       return <div className="mt-3"></div>
