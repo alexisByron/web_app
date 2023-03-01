@@ -15,7 +15,8 @@ npm start
 ## <a href="https://alexisbyron.github.io/web_app/">Live Demo</a>
 
 ## Demo  
-![Grabación de pantalla 2022-09-25 a la(s) 18 54 05](https://user-images.githubusercontent.com/72414242/192167333-cdca5c41-cc03-45ce-811c-2f42927c098a.gif)
+![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/72414242/222285860-3836c08a-6657-4371-80d1-3b1491a78bfe.gif)
+
 
 
 
